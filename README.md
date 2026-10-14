@@ -32,6 +32,10 @@ Personal finance ledger. It turns bank SMS notifications into transactions, with
 
 **Also:** TypeScript · Node.js · Cloudflare Workers · Supabase · Python · Claude Code / MCP
 
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221) · [lazarosantana9627@gmail.com](mailto:lazarosantana9627@gmail.com)
+
 ## Activity
 
 <picture>
