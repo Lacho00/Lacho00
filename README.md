@@ -1,104 +1,40 @@
-<div align="center">
+# Hi, I'm Lacho
 
-<p><sub>AN EDITORIAL PROFILE · LACHO00</sub></p>
+**WordPress & WooCommerce developer.** I build custom themes and online stores for an agency, and I write the tooling that makes those builds faster: Claude Code plugins, sync tools and Telegram bots.
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&mode=light" />
-  <img src="https://www.gitskins.com/api/section/hero?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&mode=dark" width="100%" alt="Lacho cinematic profile scene" />
-</picture>
+- 18 client sites shipped or maintained over the past year: WooCommerce stores, bilingual corporate sites, catalogs.
+- Custom themes with Tailwind, ACF/SCF fields, Gutenberg blocks, custom post types and REST endpoints.
+- Multilingual setups with Polylang and WPML, SEO with Rank Math, forms with Contact Form 7.
+- Lately: automating the WordPress workflow with AI agents, from design to theme to audit.
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&v=cinematic-hero-wordmark-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/wordmark?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Lacho animated ASCII name" />
-</picture>
+## Featured work
 
-<p><strong>Frontend or full-stack engineer</strong> · the public internet</p>
-<p>Building useful things and sharing the work in public.</p>
+### [claude-wp-builder](https://github.com/yojahny55/claude-wp-builder) · contributor
+Claude Code plugin that turns an approved HTML demo into a custom WordPress theme: ACF/SCF fields, bilingual content, header and footer, seeding, and a full site audit (security, SEO, accessibility, performance, AI-agent readiness).
+I wrote over half of the commits, mainly the test suite, the audit agents, and the commands and skills.
 
-<p><a href="https://github.com/lacho00">GitHub</a></p>
-</div>
+### [ix-wp-envsync](https://github.com/yojahny55/ix-wp-envsync) · contributor
+WordPress plugin that syncs a site between local, staging and production. It previews a three-way diff, pushes back only your changes, lets production win on conflict, and can roll back a bad push.
+I worked on the sync engine and on hardening the remote side: signed sessions, per-request nonces, an atomic push lock and a symlink guard.
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+### figma-html-loop · contributor (private)
+A loop that turns a Figma frame into a pixel-close HTML demo. It scores each pass with image metrics and a vision-model judge. I added checks for contrast, touch-target size, placeholder data, icon fonts and SVG rendering, plus a cross-engine pass in Firefox.
 
-<table width="100%" style="display:table;width:100%;table-layout:fixed;">
-<tr>
-<td width="58%" valign="top"><h2>The point of view</h2><blockquote>Building useful things and sharing the work in public.</blockquote><p><sub>Small teams, ambitious ideas, and useful collaborations.</sub></p></td>
-<td width="42%" valign="top"><p><code>PROFILE</code></p><p><sub>ROLE · Frontend or full-stack engineer<br />BASED · the public internet<br />FOCUS · PHP</sub></p><p><strong>1</strong> repos<br /><strong>728</strong> contributions<br /><strong>0</strong> followers</p></td>
-</tr>
-</table>
+### issue-bot · personal (private)
+Telegram bot for site maintenance. You describe an issue, it agrees a plan with you in the chat, applies the fix with Claude Code, and sends back a before/after HTML report. Built with Node 22, grammY and the MCP SDK, with a command-policy hook that limits what the agent may run.
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+### divisas-bot · personal (private)
+Personal finance ledger. It turns bank SMS notifications into transactions, with idempotent ingest, transfer linking and reconciliation. Built with TypeScript on Cloudflare Workers, Hono, D1 and Drizzle, and driven from Telegram.
 
-<h2>In the current cut</h2>
+## Stack
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&items=PHP%3A%3ACurrent%20focus%7CJavaScript%3A%3AIn%20the%20active%20build%20queue%7CCSS%3A%3AIn%20the%20active%20build%20queue&v=cinematic-highlights-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/highlights?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&items=PHP%3A%3ACurrent%20focus%7CJavaScript%3A%3AIn%20the%20active%20build%20queue%7CCSS%3A%3AIn%20the%20active%20build%20queue&v=cinematic-highlights-2&mode=dark" width="100%" alt="Lacho cinematic highlights" />
-</picture>
+**Daily:** PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · HTML/CSS · ACF/SCF · Polylang/WPML · WP-CLI
 
-<p align="center"><sub>The ideas, experiments, and decisions moving the work forward.</sub></p>
+**Also:** TypeScript · Node.js · Cloudflare Workers · Supabase · Python · Claude Code / MCP
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<h2>Production palette</h2>
+## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-stack-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-stack-2&mode=dark" width="100%" alt="Lacho animated technology stack" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=Lacho00&theme=aurora&style=snake&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=Lacho00&theme=aurora&style=snake&mode=dark" width="100%" alt="Lacho's contribution graph" />
 </picture>
-
-<p align="center"><sub>PHP · JavaScript · CSS · HTML · SCSS · Python · tools chosen for the work, not the trend</sub></p>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<h2>Featured reel</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&repos=lacho00%2Fvalentine-surprise&v=cinematic-projects-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&repos=lacho00%2Fvalentine-surprise&v=cinematic-projects-2&mode=dark" width="100%" alt="Lacho cinematic project reel" />
-</picture>
-
-<table width="100%">
-<tr>
-<td width="100%" valign="top"><p><strong><a href="https://github.com/Lacho00/valentine-surprise">valentine-surprise</a></strong></p><p>Will you be my Valentine? Static site</p><p><sub>PHP · ⭐ 0</sub></p></td>
-</tr>
-</table>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<p align="center"><sub>1 public projects · 0 stars · 728 contributions · 0 followers</sub></p>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<h2>Contribution trail</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&style=snake&v=cinematic-snake-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark" width="100%" alt="Lacho contribution snake" />
-</picture>
-
-<h2>Play the next move</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/chess?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-chess-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/chess?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-chess-1&mode=dark" width="100%" alt="Lacho animated chess replay" />
-</picture>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<div align="center">
-<p><sub>THE NEXT SCENE</sub></p>
-
-<h2>Keep the story moving</h2>
-
-<p>I enjoy working with people who care about the details, share the context, and ship something useful.</p>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-social-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/social?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-social-2&mode=dark" width="100%" alt="Lacho contact links" />
-</picture>
-
-<p><a href="https://github.com/lacho00">GitHub</a></p>
-
-<p><sub>Lacho · cinematic profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
-</div>
