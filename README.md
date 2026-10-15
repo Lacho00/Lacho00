@@ -1,8 +1,10 @@
 <div align="center">
 
+<p>
 <picture>
   <img src="assets/hero-dark.svg" width="100%" alt="Lacho, WordPress and WooCommerce developer" />
 </picture>
+</p>
 
 <p><strong>WordPress &amp; WooCommerce developer</strong></p>
 <p>Custom themes, online stores, and the AI tooling that builds them faster.</p>
@@ -13,25 +15,33 @@
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
+<p>
 <picture>
   <img src="assets/about-dark.svg" width="100%" alt="About: I build custom WordPress themes and WooCommerce stores, and the tools behind them. Open to WordPress and automation work." />
 </picture>
+</p>
 
+<p>
 <picture>
   <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
 </picture>
+</p>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>Focus</h2>
 
+<p>
 <picture>
   <img src="assets/focus-dark.svg" width="100%" alt="Focus: WordPress, custom themes and stores; WooCommerce, 11 online stores; AI tooling, Claude Code plugins and bots." />
 </picture>
+</p>
 
+<p>
 <picture>
   <img src="assets/craft-dark.svg" width="100%" alt="What I bring: custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
 </picture>
+</p>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
@@ -54,21 +64,27 @@
 
 <h2>Stack</h2>
 
+<p>
 <picture>
   <img src="assets/stack-dark.svg" width="100%" alt="Language stack" />
 </picture>
+</p>
 
+<p>
 <picture>
   <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
 </picture>
+</p>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>Open source &amp; tools</h2>
 
+<p>
 <picture>
   <img src="assets/projects-dark.svg" width="100%" alt="Featured public projects" />
 </picture>
+</p>
 
 <table width="100%">
 <tr>
@@ -89,9 +105,11 @@
 
 <h2>Activity</h2>
 
+<p>
 <picture>
   <img src="assets/heatmap-dark.svg" width="100%" alt="Contribution graph" />
 </picture>
+</p>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
