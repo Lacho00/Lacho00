@@ -2,6 +2,7 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-dark.svg" />
   <img src="assets/hero-dark.svg" width="100%" alt="Lacho, WordPress and WooCommerce developer" />
 </picture>
 </p>
@@ -24,6 +25,7 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/numbers-mobile-dark.svg" />
   <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
 </picture>
 </p>
@@ -34,12 +36,14 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/focus-mobile-dark.svg" />
   <img src="assets/focus-dark.svg" width="100%" alt="Focus: WordPress, custom themes and stores; WooCommerce, 11 online stores; AI tooling, Claude Code plugins and bots." />
 </picture>
 </p>
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
   <img src="assets/craft-dark.svg" width="100%" alt="What I bring: custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
 </picture>
 </p>
@@ -67,12 +71,14 @@
 
 <p>
 <picture>
-  <img src="assets/stack-dark.svg" width="100%" alt="Language stack" />
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile-dark.svg" />
+  <img src="assets/stack-dark.svg" width="100%" alt="Languages: share across my repositories" />
 </picture>
 </p>
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
   <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
 </picture>
 </p>
@@ -83,6 +89,7 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/projects-mobile-dark.svg" />
   <img src="assets/projects-dark.svg" width="100%" alt="Featured public projects" />
 </picture>
 </p>
@@ -108,6 +115,7 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/heatmap-mobile-dark.svg" />
   <img src="assets/heatmap-dark.svg" width="100%" alt="Contribution graph" />
 </picture>
 </p>

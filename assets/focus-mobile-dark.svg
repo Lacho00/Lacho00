@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="284" viewBox="0 0 320 284" role="img" aria-label="Focus: WordPress, Custom themes &amp; stores; WooCommerce, 11 online stores; AI tooling, Claude Code plugins &amp; bots.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0a0f"/><stop offset="54%" stop-color="#101018"/><stop offset="100%" stop-color="#0a0a0f"/>
+  </linearGradient>
+  <radialGradient id="glow-a"><stop offset="0%" stop-color="#7b93f5" stop-opacity="0.13"/><stop offset="100%" stop-color="#7b93f5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow-b"><stop offset="0%" stop-color="#3858e9" stop-opacity="0.12"/><stop offset="100%" stop-color="#3858e9" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .glow-a { animation: drift-a 14s ease-in-out infinite; }
+  .glow-b { animation: drift-b 18s ease-in-out infinite; }
+  .in { animation: fade-in 0.6s ease-out backwards; }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes drift-a { 50% { transform: translate(40px, 12px); } }
+  @keyframes drift-b { 50% { transform: translate(-36px, -10px); } }
+  @keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="320" height="284" rx="16" fill="url(#bg)"/>
+<ellipse class="glow-a" cx="64" cy="28.400000000000002" rx="112" ry="170.4" fill="url(#glow-a)"/>
+<ellipse class="glow-b" cx="256" cy="269.8" rx="112" ry="170.4" fill="url(#glow-b)"/>
+<text x="16" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="800" letter-spacing="4" fill="#8b949e">FOCUS</text>
+<g class="in" style="animation-delay:0.00s"><rect x="14" y="60" width="292" height="62" rx="14" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><rect x="14" y="74" width="4" height="34" rx="2" fill="#7b93f5"/><text x="34" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">WordPress</text><text x="34" y="107" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">Custom themes &amp; stores</text></g>
+<g class="in" style="animation-delay:0.08s"><rect x="14" y="132" width="292" height="62" rx="14" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><rect x="14" y="146" width="4" height="34" rx="2" fill="#4a68ee"/><text x="34" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">WooCommerce</text><text x="34" y="179" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">11 online stores</text></g>
+<g class="in" style="animation-delay:0.16s"><rect x="14" y="204" width="292" height="62" rx="14" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><rect x="14" y="218" width="4" height="34" rx="2" fill="#2c45c4"/><text x="34" y="230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">AI tooling</text><text x="34" y="251" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">Claude Code plugins &amp; bots</text></g>
+<rect x="0.5" y="0.5" width="319" height="283" rx="15.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
+</svg>

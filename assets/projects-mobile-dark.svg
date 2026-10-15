@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="421" viewBox="0 0 320 421" role="img" aria-label="Projects: claude-wp-builder, Claude Code plugin that turns an approved HTML demo into a custom WordPress theme.; ix-wp-envsync, Syncs a WordPress site between local, staging and production, with rollback.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0a0f"/><stop offset="54%" stop-color="#101018"/><stop offset="100%" stop-color="#0a0a0f"/>
+  </linearGradient>
+  <radialGradient id="glow-a"><stop offset="0%" stop-color="#7b93f5" stop-opacity="0.13"/><stop offset="100%" stop-color="#7b93f5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow-b"><stop offset="0%" stop-color="#3858e9" stop-opacity="0.12"/><stop offset="100%" stop-color="#3858e9" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .glow-a { animation: drift-a 14s ease-in-out infinite; }
+  .glow-b { animation: drift-b 18s ease-in-out infinite; }
+  .in { animation: fade-in 0.6s ease-out backwards; }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes drift-a { 50% { transform: translate(40px, 12px); } }
+  @keyframes drift-b { 50% { transform: translate(-36px, -10px); } }
+  @keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="320" height="421" rx="16" fill="url(#bg)"/>
+<ellipse class="glow-a" cx="64" cy="42.1" rx="112" ry="252.6" fill="url(#glow-a)"/>
+<ellipse class="glow-b" cx="256" cy="399.95" rx="112" ry="252.6" fill="url(#glow-b)"/>
+<text x="16" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="800" letter-spacing="4" fill="#8b949e">PROJECTS</text>
+<g class="in" style="animation-delay:0.00s"><rect x="14" y="62" width="292" height="189" rx="16" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><text x="34" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">claude-wp-builder</text><text x="34" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">Claude Code plugin that turns an approved</text><text x="34" y="141" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">HTML demo into a custom WordPress</text><text x="34" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">theme.</text><rect x="34" y="182" width="81.06499999999998" height="22" rx="11" fill="none" stroke="#7b93f5" stroke-opacity="0.4"/><text x="44" y="197" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11.5" fill="#9aabf5">accessibility</text><rect x="121.06499999999998" y="182" width="34.49" height="22" rx="11" fill="none" stroke="#7b93f5" stroke-opacity="0.4"/><text x="131.065" y="197" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11.5" fill="#9aabf5">acf</text><rect x="161.55499999999998" y="182" width="60.88249999999999" height="22" rx="11" fill="none" stroke="#7b93f5" stroke-opacity="0.4"/><text x="171.55499999999998" y="197" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11.5" fill="#9aabf5">bilingual</text><circle cx="39" cy="229" r="5" fill="#7b93f5"/><text x="50" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">Shell  ·  ★ 6  ·  Contributor</text></g>
+<g class="in" style="animation-delay:0.08s"><rect x="14" y="267" width="292" height="130" rx="16" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><text x="34" y="301" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">ix-wp-envsync</text><text x="34" y="327" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">Syncs a WordPress site between local,</text><text x="34" y="346" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#8b949e">staging and production, with rollback.</text><circle cx="39" cy="375" r="5" fill="#7b93f5"/><text x="50" y="379" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">PHP  ·  ★ 1  ·  Contributor</text></g>
+<rect x="0.5" y="0.5" width="319" height="420" rx="15.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
+</svg>
