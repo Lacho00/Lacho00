@@ -99,6 +99,12 @@
   <img src="assets/heatmap-dark.svg" width="100%" alt="Contribution graph" />
 </picture>
 
+<h2>Off the clock</h2>
+
+<picture>
+  <img src="assets/chess-dark.svg" width="100%" alt="Animated replay of Morphy's Opera Game, Paris 1858" />
+</picture>
+
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <div align="center">

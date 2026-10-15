@@ -3,6 +3,7 @@
 // into assets/. Only the dark mode is built: the profile stays dark for every
 // visitor. Run by .github/workflows/profile-assets.yml once a day.
 import { mkdir, writeFile } from 'node:fs/promises';
+import { buildChess } from './chess.mjs';
 
 const BASE = 'https://www.gitskins.com/api/section';
 const COMMON = {
@@ -122,6 +123,7 @@ const recolor = (svg) =>
     );
 
 await mkdir('assets', { recursive: true });
+await writeFile('assets/chess-dark.svg', buildChess());
 let failed = 0;
 
 for (const s of SECTIONS) {
