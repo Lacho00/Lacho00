@@ -3,8 +3,11 @@
 // the profile stays dark for every visitor. Run by
 // .github/workflows/profile-assets.yml once a day; locally run it with
 // GITHUB_TOKEN=$(gh auth token) node scripts/build-assets.mjs
-import { mkdir, writeFile } from 'node:fs/promises';
-import { DESKTOP, PHONE, about, activity, hero, highlights, languages, projects } from './cards.mjs';
+// The snake card is built only when the workflow's Platane/snk step has left
+// its SVG at dist/snake.svg; without it the committed snake card is kept.
+import { existsSync } from 'node:fs';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { DESKTOP, PHONE, about, activity, hero, highlights, languages, projects, snake } from './cards.mjs';
 import { loadProfile } from './data.mjs';
 import { buildStackCard } from './stack-card.mjs';
 
@@ -26,11 +29,11 @@ const CARDS = {
     avatar: data.avatar,
     handle: 'lacho00',
     name: 'Lacho',
-    headline: 'WordPress & WooCommerce developer · AI tooling',
+    headline: 'Web developer · WordPress, WooCommerce & automation',
     langs: data.langs.slice(0, 4).map((l) => l.name),
   }),
   about: (w) => about(w, {
-    headline: 'I build custom WordPress themes and WooCommerce stores, and the tools behind them.',
+    headline: 'I build WordPress themes and stores, and the TypeScript tools and bots that automate the work around them.',
     cta: 'open to WordPress & automation work',
   }),
   numbers: (w) => highlights(w, {
@@ -39,7 +42,7 @@ const CARDS = {
   }),
   craft: (w) => highlights(w, {
     title: 'What I do',
-    items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites']],
+    items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites'], ['Automation & AI', 'Node/TS bots\nClaude Code plugins']],
   }),
   stack: (w) => languages(w, { langs: data.langs, note: 'Share across my repositories, each one weighted equally' }),
   tools: (w) => buildStackCard(w),
@@ -48,6 +51,13 @@ const CARDS = {
   }),
   heatmap: (w) => activity(w, { weeks: data.weeks, total: data.total }),
 };
+
+const SNAKE = 'dist/snake.svg';
+if (existsSync(SNAKE)) {
+  const svg = await readFile(SNAKE, 'utf8');
+  if (/viewBox="[-\d.]+ [-\d.]+ [\d.]+ [\d.]+"/.test(svg)) CARDS.snake = (w) => snake(w, { svg, total: data.total });
+  else console.warn(`${SNAKE} has no viewBox; keeping the committed snake card`);
+}
 
 await mkdir('assets', { recursive: true });
 for (const [name, build] of Object.entries(CARDS)) {

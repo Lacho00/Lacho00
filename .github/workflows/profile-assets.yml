@@ -23,6 +23,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Contribution grid with the snake, in the profile's blues; framed by build-assets.
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        # Without the snake the other cards still refresh; the committed snake card stays.
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?color_snake=#9aabf5&color_dots=#16161f,#1e2f8a,#2c45c4,#3858e9,#7b93f5
       - run: node scripts/build-assets.mjs
         env:
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}

@@ -3,11 +3,11 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile-dark.svg" />
-  <img src="assets/hero-dark.svg" width="100%" alt="Lacho, WordPress and WooCommerce developer" />
+  <img src="assets/hero-dark.svg" width="100%" alt="Lacho, web developer: WordPress, WooCommerce and automation" />
 </picture>
 </p>
 
-<p><strong>WordPress &amp; WooCommerce developer</strong></p>
+<p><strong>Web developer · WordPress, WooCommerce &amp; automation</strong></p>
 <p>Custom themes, online stores, and the AI tooling that builds them faster.</p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (working proficiency)</sub></p>
 
@@ -19,7 +19,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/about-mobile-dark.svg" />
-  <img src="assets/about-dark.svg" width="100%" alt="About: I build custom WordPress themes and WooCommerce stores, and the tools behind them. Open to WordPress and automation work." />
+  <img src="assets/about-dark.svg" width="100%" alt="About: I build WordPress themes and stores, and the TypeScript tools and bots that automate the work around them. Open to WordPress and automation work." />
 </picture>
 </p>
 
@@ -52,7 +52,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
-  <img src="assets/craft-dark.svg" width="100%" alt="What I do: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
+  <img src="assets/craft-dark.svg" width="100%" alt="What I do: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites; automation and AI, Node and TypeScript bots and Claude Code plugins." />
 </picture>
 </p>
 

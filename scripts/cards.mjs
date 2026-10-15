@@ -154,23 +154,29 @@ export function highlights(w, { title, items }) {
   const oneLine = (d) => d.replace(/\n/g, ', ');
   const pad = wide ? 28 : 14;
   const parts = [eyebrow(pad + 2, 44, title)];
-  const bars = items.length > 3 ? [C.accent, C.mid, C.blue, C.deep] : [C.accent, C.mid, C.deep];
+  const bars = items.length > 3 ? [C.accent, C.mid, C.blue, C.deep, C.night] : [C.accent, C.mid, C.deep];
   let h;
   if (wide) {
+    // Up to four cards a row; a shorter last row stretches across the width.
     const gap = 16;
-    const n = items.length;
-    const cw = (w - 2 * pad - (n - 1) * gap) / n;
-    const descs = items.map(([, d]) => d.split('\n').flatMap((part) => wrap(part, 12.5, cw - 36)));
-    const extra = (Math.max(...descs.map((l) => l.length)) - 1) * 17;
-    items.forEach(([t], i) => {
-      const x = pad + i * (cw + gap);
-      parts.push(
-        `<g class="in"${delay(i)}>${panel(x, 60, cw, 96 + extra)}<rect x="${x}" y="82" width="4" height="${52 + extra}" rx="2" fill="${bars[i]}"/>` +
-          text(x + 24, 98, t, { size: 16, weight: 850 }) +
-          descs[i].map((l, j) => text(x + 24, 122 + j * 17, l, { size: 12.5, fill: C.muted })).join('') + '</g>',
-      );
-    });
-    h = 180 + extra;
+    let y = 60;
+    for (let start = 0; start < items.length; start += 4) {
+      const row = items.slice(start, start + 4);
+      const cw = (w - 2 * pad - (row.length - 1) * gap) / row.length;
+      const descs = row.map(([, d]) => (cw > 400 ? [oneLine(d)] : d.split('\n')).flatMap((part) => wrap(part, 12.5, cw - 36)));
+      const extra = (Math.max(...descs.map((l) => l.length)) - 1) * 17;
+      row.forEach(([t], k) => {
+        const i = start + k;
+        const x = pad + k * (cw + gap);
+        parts.push(
+          `<g class="in"${delay(i)}>${panel(x, y, cw, 96 + extra)}<rect x="${x}" y="${y + 22}" width="4" height="${52 + extra}" rx="2" fill="${bars[i]}"/>` +
+            text(x + 24, y + 38, t, { size: 16, weight: 850 }) +
+            descs[k].map((l, j) => text(x + 24, y + 62 + j * 17, l, { size: 12.5, fill: C.muted })).join('') + '</g>',
+        );
+      });
+      y += 96 + extra + gap;
+    }
+    h = y - gap + 24;
   } else {
     items.forEach(([t, d], i) => {
       const y = 60 + i * 72;
@@ -268,6 +274,25 @@ export function projects(w, { repos }) {
 }
 
 // Contribution calendar, lit week by week. A phone shows the last 20 weeks.
+// The contribution grid with a snake eating through it. The grid and its
+// animation come from Platane/snk (run by the workflow); this only frames
+// its SVG like the other cards, with the yearly total above it.
+export function snake(w, { svg, total }) {
+  const wide = w > 500;
+  const pad = wide ? 28 : 14;
+  const [, vw, vh] = svg.match(/viewBox="[-\d.]+ [-\d.]+ ([\d.]+) ([\d.]+)"/).map(Number);
+  const sw = w - 2 * pad;
+  const sh = Math.round((sw * vh) / vw);
+  const y0 = wide ? 84 : 78;
+  const parts = [
+    eyebrow(pad + 2, 44, 'Activity'),
+    text(pad + 2, 72, `${total.toLocaleString('en-US')} contributions in the last year`, { size: wide ? 18 : 16, weight: 800 }),
+    svg.replace(/<\?xml[^>]*>/, '').replace(/<desc>[^<]*<\/desc>/, '').replace(/<svg[^>]*>/, (tag) =>
+      `<svg x="${pad}" y="${y0}" width="${sw}" height="${sh}" ${tag.match(/viewBox="[^"]*"/)[0]}>`),
+  ];
+  return frame(w, y0 + sh + (wide ? 14 : 12), `Activity: ${total} contributions in the last year, with a snake eating through the contribution grid.`, parts.join('\n'));
+}
+
 export function activity(w, { weeks, total }) {
   const wide = w > 500;
   const pad = wide ? 28 : 14;
