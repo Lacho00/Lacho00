@@ -4,10 +4,6 @@
   <img src="assets/hero-dark.svg" width="100%" alt="Lacho, WordPress and WooCommerce developer" />
 </picture>
 
-<picture>
-  <img src="assets/wordmark-dark.svg" width="100%" alt="Lacho animated name" />
-</picture>
-
 <p><strong>WordPress &amp; WooCommerce developer</strong></p>
 <p>Custom themes, online stores, and the AI tooling that builds them faster.</p>
 <p><sub>Cuba (UTC−5) · Open to remote work · Spanish (native) · English (B1)</sub></p>
@@ -18,11 +14,11 @@
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <picture>
-  <img src="assets/about-dark.svg" width="100%" alt="About Lacho" />
+  <img src="assets/about-dark.svg" width="100%" alt="About: I build custom WordPress themes and WooCommerce stores, and the tools behind them. Open to WordPress and automation work." />
 </picture>
 
 <picture>
-  <img src="assets/numbers-dark.svg" width="100%" alt="Lacho by the numbers" />
+  <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
 </picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
@@ -30,11 +26,11 @@
 <h2>Focus</h2>
 
 <picture>
-  <img src="assets/focus-dark.svg" width="100%" alt="Current focus: WordPress, WooCommerce and AI tooling" />
+  <img src="assets/focus-dark.svg" width="100%" alt="Focus: WordPress, custom themes and stores; WooCommerce, 11 online stores; AI tooling, Claude Code plugins and bots." />
 </picture>
 
 <picture>
-  <img src="assets/craft-dark.svg" width="100%" alt="What Lacho brings to a build" />
+  <img src="assets/craft-dark.svg" width="100%" alt="What I bring: custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
 </picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
@@ -63,10 +59,6 @@
 </picture>
 
 <p align="center"><sub>PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · ACF/SCF · Polylang/WPML · Rank Math · WP-CLI<br />Elementor / Elementor Pro · Divi · WPBakery · Crocoblock · customized ThemeForest themes · custom themes from scratch<br />TypeScript · Node.js · Hono · Cloudflare Workers · D1 · Drizzle · Supabase / Postgres · grammY<br />Claude Code / MCP · Playwright · Vitest · GitHub Actions · Python</sub></p>
-
-<picture>
-  <img src="assets/builders-dark.svg" width="100%" alt="Page builders and themes" />
-</picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 

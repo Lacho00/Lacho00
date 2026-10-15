@@ -18,7 +18,6 @@ const SECTIONS = [
     params: { label: 'Lacho' },
     replace: [['Building with PHP on GitHub.', 'WordPress &amp; WooCommerce developer · AI tooling']],
   },
-  { name: 'wordmark', params: { label: 'Lacho' } },
   {
     name: 'about',
     replace: [
@@ -56,24 +55,12 @@ const SECTIONS = [
     section: 'highlights',
     params: {
       items: highlights([
-        ['Multilingual', 'Polylang &amp; WPML on 8 sites'],
         ['Custom themes', '9 from scratch, Tailwind + ACF'],
-        ['Site audits', 'Security, SEO, a11y, speed'],
+        ['Page builders', 'Elementor (17), Divi, WPBakery'],
+        ['Multilingual', 'Polylang &amp; WPML on 8 sites'],
       ]),
     },
     replace: [['>HIGHLIGHTS<', '>WHAT I BRING<']],
-  },
-  {
-    name: 'builders',
-    section: 'highlights',
-    params: {
-      items: highlights([
-        ['Elementor', '17 sites, Pro on 13'],
-        ['Divi &amp; WPBakery', 'Builds and maintenance'],
-        ['ThemeForest themes', 'Customized on 13 sites'],
-      ]),
-    },
-    replace: [['>HIGHLIGHTS<', '>BUILDERS &amp; THEMES<']],
   },
   { name: 'stack', post: (svg) => dropEmptyLanguages(svg) },
   { name: 'projects', params: { repos: 'yojahny55/claude-wp-builder,yojahny55/ix-wp-envsync' } },
