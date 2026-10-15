@@ -236,13 +236,16 @@ export function projects(w, { repos }) {
   const gap = 16;
   const cw = (w - 2 * pad - (cols - 1) * gap) / cols;
   const inner = cw - 40;
-  const cards = repos.map((r) => {
-    const desc = wrap(r.description, 13, inner);
+  // With an odd count, the last card spans the full row instead of leaving half of it empty.
+  const span = (i) => cols > 1 && i === repos.length - 1 && i % cols === 0;
+  const cards = repos.map((r, i) => {
+    const iw = span(i) ? w - 2 * pad - 40 : inner;
+    const desc = wrap(r.description, 13, iw);
     const topics = [];
     let tx = 0;
     for (const t of r.topics) {
       const tw = textWidth(t, 11.5) + 20;
-      if (tx + tw > inner) break;
+      if (tx + tw > iw) break;
       topics.push([t, tx, tw]);
       tx += tw + 6;
     }
@@ -255,7 +258,7 @@ export function projects(w, { repos }) {
     if (col === 0 && i) y += rowH(i - 1) + gap;
     const x = pad + col * (cw + gap);
     const ch = rowH(i);
-    const g = [panel(x, y, cw, ch), text(x + 20, y + 34, c.r.name, { size: 16, weight: 850 })];
+    const g = [panel(x, y, span(i) ? w - 2 * pad : cw, ch), text(x + 20, y + 34, c.r.name, { size: 16, weight: 850 })];
     c.desc.forEach((l, j) => g.push(text(x + 20, y + 60 + j * 19, l, { size: 13, fill: C.muted })));
     const ty = y + 60 + (c.desc.length - 1) * 19 + 22;
     c.topics.forEach(([t, ox, tw]) =>

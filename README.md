@@ -88,13 +88,6 @@
 </picture>
 </p>
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/stack-mobile-dark.svg" />
-  <img src="assets/stack-dark.svg" width="100%" alt="Languages: share across my repositories" />
-</picture>
-</p>
-
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>Open source &amp; tools</h2>
@@ -118,13 +111,15 @@
 <td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/claude-wp-builder">claude-wp-builder</a></strong></p><p>Claude Code plugin that turns an approved HTML demo into a custom WordPress theme, with fields, bilingual content, seeding and a full site audit. I wrote over half of the commits: test suite, audit agents, commands and skills.</p><p><sub>Contributor · Claude Code · PHP</sub></p></td>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/ix-wp-envsync">ix-wp-envsync</a></strong></p><p>Syncs a WordPress site between local, staging and production: three-way diff, production wins on conflict, rollback. I worked on the sync engine and hardened the remote side.</p><p><sub>Contributor · WordPress plugin · PHP</sub></p></td>
 </tr>
+<tr>
+<td colspan="2" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
+</tr>
 </table>
 
 <table width="100%">
 <tr>
-<td width="33%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
-<td width="33%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Personal · Node.js · MIT</sub></p></td>
-<td width="34%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
+<td width="50%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
+<td width="50%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
 </tr>
 </table>
 

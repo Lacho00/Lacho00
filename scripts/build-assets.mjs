@@ -7,7 +7,7 @@
 // its SVG at dist/snake.svg; without it the committed snake card is kept.
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { DESKTOP, PHONE, about, hero, highlights, languages, projects, snake } from './cards.mjs';
+import { DESKTOP, PHONE, about, hero, highlights, projects, snake } from './cards.mjs';
 import { loadProfile } from './data.mjs';
 import { code, gauges, pipeline, terminal } from './showcase-cards.mjs';
 import { buildStackCard } from './stack-card.mjs';
@@ -15,14 +15,17 @@ import { buildStackCard } from './stack-card.mjs';
 const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN;
 if (!token) throw new Error('Set PROFILE_TOKEN or GITHUB_TOKEN');
 
-const FEATURED = ['yojahny55/claude-wp-builder', 'yojahny55/ix-wp-envsync'];
+const CONTRIBUTED = ['yojahny55/claude-wp-builder', 'yojahny55/ix-wp-envsync'];
+// Own repos are already counted in the language shares, so only the contributed ones are added there.
+const FEATURED = [...CONTRIBUTED, 'Lacho00/issue-bot'];
 // Shorter, cleaner copy than the repos' own descriptions.
 const DESCRIPTIONS = {
   'claude-wp-builder': 'Claude Code plugin that turns an approved HTML demo into a custom WordPress theme.',
   'ix-wp-envsync': 'Syncs a WordPress site between local, staging and production, with rollback.',
+  'issue-bot': 'Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.',
 };
 
-const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: FEATURED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
+const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: CONTRIBUTED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
 console.log(`token: ${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, repos: ${data.repoCount}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
 
 const CARDS = {
@@ -45,10 +48,9 @@ const CARDS = {
     title: 'What I do',
     items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites'], ['Automation & AI', 'Node/TS bots\nClaude Code plugins']],
   }),
-  stack: (w) => languages(w, { langs: data.langs, note: 'Share across my repositories, each one weighted equally' }),
   tools: (w) => buildStackCard(w),
   projects: (w) => projects(w, {
-    repos: data.repos.map((r) => ({ ...r, description: DESCRIPTIONS[r.name] ?? r.description, role: 'Contributor' })),
+    repos: data.repos.map((r) => ({ ...r, description: DESCRIPTIONS[r.name] ?? r.description, role: CONTRIBUTED.some((f) => f.endsWith(`/${r.name}`)) ? 'Contributor' : 'Author' })),
   }),
   terminal: (w) => terminal(w, {
     title: 'claude-wp-builder',
