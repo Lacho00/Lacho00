@@ -147,34 +147,41 @@ export function about(w, { headline, cta }) {
 }
 
 // Three short facts: columns on desktop, rows on a phone.
+// A '\n' in a description marks where it breaks on desktop; on a phone
+// the description runs on one line with a comma there instead.
 export function highlights(w, { title, items }) {
   const wide = w > 500;
+  const oneLine = (d) => d.replace(/\n/g, ', ');
   const pad = wide ? 28 : 14;
   const parts = [eyebrow(pad + 2, 44, title)];
-  const bars = [C.accent, C.mid, C.deep];
+  const bars = items.length > 3 ? [C.accent, C.mid, C.blue, C.deep] : [C.accent, C.mid, C.deep];
   let h;
   if (wide) {
     const gap = 16;
-    const cw = (w - 2 * pad - 2 * gap) / 3;
-    items.forEach(([t, d], i) => {
+    const n = items.length;
+    const cw = (w - 2 * pad - (n - 1) * gap) / n;
+    const descs = items.map(([, d]) => d.split('\n').flatMap((part) => wrap(part, 12.5, cw - 36)));
+    const extra = (Math.max(...descs.map((l) => l.length)) - 1) * 17;
+    items.forEach(([t], i) => {
       const x = pad + i * (cw + gap);
       parts.push(
-        `<g class="in"${delay(i)}>${panel(x, 60, cw, 96)}<rect x="${x}" y="82" width="4" height="52" rx="2" fill="${bars[i]}"/>` +
-          text(x + 24, 98, t, { size: 16, weight: 850 }) + text(x + 24, 122, d, { size: 12.5, fill: C.muted }) + '</g>',
+        `<g class="in"${delay(i)}>${panel(x, 60, cw, 96 + extra)}<rect x="${x}" y="82" width="4" height="${52 + extra}" rx="2" fill="${bars[i]}"/>` +
+          text(x + 24, 98, t, { size: 16, weight: 850 }) +
+          descs[i].map((l, j) => text(x + 24, 122 + j * 17, l, { size: 12.5, fill: C.muted })).join('') + '</g>',
       );
     });
-    h = 180;
+    h = 180 + extra;
   } else {
     items.forEach(([t, d], i) => {
       const y = 60 + i * 72;
       parts.push(
         `<g class="in"${delay(i)}>${panel(pad, y, w - 2 * pad, 62, 14)}<rect x="${pad}" y="${y + 14}" width="4" height="34" rx="2" fill="${bars[i]}"/>` +
-          text(pad + 20, y + 26, t, { size: 16, weight: 850 }) + text(pad + 20, y + 47, d, { size: 13, fill: C.muted }) + '</g>',
+          text(pad + 20, y + 26, t, { size: 16, weight: 850 }) + text(pad + 20, y + 47, oneLine(d), { size: 13, fill: C.muted }) + '</g>',
       );
     });
     h = 60 + items.length * 72 + 8;
   }
-  return frame(w, h, `${plain(title)}: ${items.map(([t, d]) => `${plain(t)}, ${plain(d)}`).join('; ')}.`, parts.join('\n'));
+  return frame(w, h, `${plain(title)}: ${items.map(([t, d]) => `${plain(t)}, ${plain(oneLine(d))}`).join('; ')}.`, parts.join('\n'));
 }
 
 // Language shares as bars that grow in.

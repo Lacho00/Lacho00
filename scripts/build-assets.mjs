@@ -37,13 +37,9 @@ const CARDS = {
     title: 'By the numbers',
     items: [['27', 'WordPress sites built or run'], ['1,000+', 'commits since late 2025'], ['479', 'commits to claude-wp-builder']],
   }),
-  focus: (w) => highlights(w, {
-    title: 'Focus',
-    items: [['WordPress', 'Custom themes & stores'], ['WooCommerce', '11 online stores'], ['AI tooling', 'Claude Code plugins & bots']],
-  }),
   craft: (w) => highlights(w, {
-    title: 'What I bring',
-    items: [['Custom themes', '9 from scratch, Tailwind + ACF'], ['Page builders', 'Elementor (17), Divi, WPBakery'], ['Multilingual', 'Polylang & WPML on 8 sites']],
+    title: 'What I do',
+    items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites']],
   }),
   stack: (w) => languages(w, { langs: data.langs, note: 'Share across my repositories, each one weighted equally' }),
   tools: (w) => buildStackCard(w),

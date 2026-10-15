@@ -29,7 +29,8 @@ const GAP = 8;
 const ICON = 16;
 const TEXT = 12.5;
 
-const chipWidth = (label) => 12 + ICON + 8 + Math.ceil(textWidth(label, TEXT)) + 14;
+// textWidth runs a little narrow on long labels; the 8% keeps them off the chip's edge.
+const chipWidth = (label) => 12 + ICON + 8 + Math.ceil(textWidth(label, TEXT) * 1.08) + 14;
 
 export function buildStackCard(W) {
   const PAD = W > 500 ? 30 : 14;

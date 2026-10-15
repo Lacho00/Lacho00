@@ -9,7 +9,7 @@
 
 <p><strong>WordPress &amp; WooCommerce developer</strong></p>
 <p>Custom themes, online stores, and the AI tooling that builds them faster.</p>
-<p><sub>Cuba (UTC−5) · Open to remote work · Spanish (native) · English (B1)</sub></p>
+<p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (working proficiency)</sub></p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>
@@ -32,38 +32,29 @@
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
-<h2>Focus</h2>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/focus-mobile-dark.svg" />
-  <img src="assets/focus-dark.svg" width="100%" alt="Focus: WordPress, custom themes and stores; WooCommerce, 11 online stores; AI tooling, Claude Code plugins and bots." />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
-  <img src="assets/craft-dark.svg" width="100%" alt="What I bring: custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
-</picture>
-</p>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
 <h2>Selected client work</h2>
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><p><strong>Event ticketing store</strong></p><p>WooCommerce ticket sales with a local payment gateway, electronic invoicing and custom discount rules.</p><p><sub>WooCommerce · Divi · payments</sub></p></td>
-<td width="50%" valign="top"><p><strong>Network of online stores</strong></p><p>Several WooCommerce stores on one customized premium theme, sharing in-house plugins for shipping zones, a location-aware catalog and multilingual stock.</p><p><sub>WooCommerce · Elementor · custom plugins</sub></p></td>
+<td width="50%" valign="top"><p><strong>Event ticketing store</strong></p><p>WooCommerce ticket sales with a local payment gateway, electronic invoicing and custom discount rules.</p><p><strong>4,500+</strong> paid orders and <strong>16,000+</strong> tickets issued in its first year.</p><p><sub>WooCommerce · Divi · payments</sub></p></td>
+<td width="50%" valign="top"><p><strong>Network of online stores</strong></p><p>Several WooCommerce stores on one customized premium theme, sharing in-house plugins for shipping zones, a location-aware catalog and multilingual stock.</p><p><strong>8</strong> stores, <strong>~2,600</strong> products, <strong>7</strong> shared in-house plugins.</p><p><sub>WooCommerce · Elementor · custom plugins</sub></p></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong>Payment gateway integration</strong></p><p>WooCommerce gateway for a third-party wallet API: HPOS compatible, verified callbacks, token refresh.</p><p><sub>WooCommerce · PHP · REST</sub></p></td>
-<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Custom themes built from scratch with Tailwind and ACF, bilingual with Polylang, audited for security, accessibility and performance.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
+<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Custom themes built from scratch with Tailwind and ACF, bilingual with Polylang, audited for security, accessibility and performance.</p><p><strong>4</strong> bilingual sites; audited ones score <strong>98</strong> performance and <strong>96+</strong> accessibility on Lighthouse.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
 </tr>
 </table>
 
-<p align="center"><sub>Client names are left out on purpose.</sub></p>
+<p align="center"><sub>─────── ◇ ───────</sub></p>
+
+<h2>What I do</h2>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
+  <img src="assets/craft-dark.svg" width="100%" alt="What I do: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites." />
+</picture>
+</p>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
@@ -71,15 +62,15 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/stack-mobile-dark.svg" />
-  <img src="assets/stack-dark.svg" width="100%" alt="Languages: share across my repositories" />
+  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
+  <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
-  <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile-dark.svg" />
+  <img src="assets/stack-dark.svg" width="100%" alt="Languages: share across my repositories" />
 </picture>
 </p>
 
