@@ -1,15 +1,13 @@
 <div align="center">
 
-<p><sub>AN EDITORIAL PROFILE · LACHO00</sub></p>
-
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&mode=light" />
-  <img src="https://www.gitskins.com/api/section/hero?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&mode=dark" width="100%" alt="Lacho cinematic profile scene" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img src="assets/hero-dark.svg" width="100%" alt="Lacho cinematic profile scene" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&v=cinematic-hero-wordmark-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/wordmark?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&label=Lacho&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Lacho animated ASCII name" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/wordmark-light.svg" />
+  <img src="assets/wordmark-dark.svg" width="100%" alt="Lacho animated ASCII name" />
 </picture>
 
 <p><strong>WordPress &amp; WooCommerce developer</strong></p>
@@ -20,20 +18,28 @@
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
-<table width="100%">
-<tr>
-<td width="58%" valign="top"><h2>The point of view</h2><blockquote>I build custom WordPress themes and WooCommerce stores for an agency, and I write the tooling that makes those builds faster.</blockquote><p><sub>Tailwind, ACF/SCF, Gutenberg blocks, custom post types and REST endpoints. Multilingual with Polylang and WPML, SEO with Rank Math. Lately: automating the whole workflow with AI agents, from design to theme to audit.</sub></p></td>
-<td width="42%" valign="top"><p><code>PROFILE</code></p><p><sub>ROLE · WordPress &amp; WooCommerce developer<br />FOCUS · Custom themes, stores, AI tooling</sub></p><p><strong>18</strong> client sites in the past year<br /><strong>1,000+</strong> commits in client work<br /><strong>2</strong> open-source WordPress tools</p></td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" />
+  <img src="assets/about-dark.svg" width="100%" alt="About Lacho" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/numbers-light.svg" />
+  <img src="assets/numbers-dark.svg" width="100%" alt="Lacho by the numbers" />
+</picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>In the current cut</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&items=WordPress%3A%3ACustom%20themes%20%26%20stores%7CWooCommerce%3A%3A18%20client%20sites%7CAI%20tooling%3A%3AClaude%20Code%20plugins%20%26%20bots&v=cinematic-highlights-3&mode=light" />
-  <img src="https://www.gitskins.com/api/section/highlights?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&items=WordPress%3A%3ACustom%20themes%20%26%20stores%7CWooCommerce%3A%3A18%20client%20sites%7CAI%20tooling%3A%3AClaude%20Code%20plugins%20%26%20bots&v=cinematic-highlights-3&mode=dark" width="100%" alt="Lacho cinematic highlights" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg" />
+  <img src="assets/focus-dark.svg" width="100%" alt="Lacho cinematic highlights" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/craft-light.svg" />
+  <img src="assets/craft-dark.svg" width="100%" alt="What Lacho brings to a build" />
 </picture>
 
 <p align="center"><sub>Client builds by day, the tools that speed them up the rest of the time.</sub></p>
@@ -43,8 +49,8 @@
 <h2>Production palette</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-stack-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-stack-2&mode=dark" width="100%" alt="Lacho animated technology stack" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+  <img src="assets/stack-dark.svg" width="100%" alt="Lacho animated technology stack" />
 </picture>
 
 <p align="center"><sub>PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · ACF/SCF · Polylang/WPML · WP-CLI<br />TypeScript · Node.js · Cloudflare Workers · Supabase · Python · Claude Code / MCP</sub></p>
@@ -54,8 +60,8 @@
 <h2>Featured reel</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&repos=yojahny55%2Fclaude-wp-builder%2Cyojahny55%2Fix-wp-envsync&v=cinematic-projects-3&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&repos=yojahny55%2Fclaude-wp-builder%2Cyojahny55%2Fix-wp-envsync&v=cinematic-projects-3&mode=dark" width="100%" alt="Lacho cinematic project reel" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg" />
+  <img src="assets/projects-dark.svg" width="100%" alt="Lacho cinematic project reel" />
 </picture>
 
 <table width="100%">
@@ -78,15 +84,15 @@
 <h2>Contribution trail</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&style=snake&v=cinematic-snake-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark" width="100%" alt="Lacho contribution snake" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/heatmap-light.svg" />
+  <img src="assets/heatmap-dark.svg" width="100%" alt="Lacho contribution snake" />
 </picture>
 
 <h2>Play the next move</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/chess?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-chess-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/chess?username=lacho00&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F109485638%3Fu%3D6e2e03e80798430409d7879b20da2cac875c4cc2%26v%3D4&v=cinematic-chess-1&mode=dark" width="100%" alt="Lacho animated chess replay" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/chess-light.svg" />
+  <img src="assets/chess-dark.svg" width="100%" alt="Lacho animated chess replay" />
 </picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
@@ -100,5 +106,4 @@
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 
-<p><sub>Lacho · cinematic profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
 </div>
