@@ -7,8 +7,9 @@
 // its SVG at dist/snake.svg; without it the committed snake card is kept.
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { DESKTOP, PHONE, about, activity, hero, highlights, languages, projects, snake } from './cards.mjs';
+import { DESKTOP, PHONE, about, hero, highlights, languages, projects, snake } from './cards.mjs';
 import { loadProfile } from './data.mjs';
+import { code, gauges, pipeline, terminal } from './showcase-cards.mjs';
 import { buildStackCard } from './stack-card.mjs';
 
 const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN;
@@ -49,7 +50,34 @@ const CARDS = {
   projects: (w) => projects(w, {
     repos: data.repos.map((r) => ({ ...r, description: DESCRIPTIONS[r.name] ?? r.description, role: 'Contributor' })),
   }),
-  heatmap: (w) => activity(w, { weeks: data.weeks, total: data.total }),
+  terminal: (w) => terminal(w, {
+    title: 'claude-wp-builder',
+    prompt: '>',
+    command: '/wp-yolo demo/',
+    lines: [['✓', 'demo split into sections'], ['✓', 'theme scaffolded · Tailwind + ACF'], ['✓', 'fields + template parts per section'], ['✓', 'content seeded · es / en'], ['→', 'theme ready for review']],
+  }),
+  workflow: (w) => pipeline(w, {
+    title: 'How I work',
+    stages: [['Design', 'Figma'], ['Demo', 'pixel-close HTML'], ['Theme', 'ACF + i18n'], ['Audit', 'a11y · SEO · speed'], ['Ship', 'env sync']],
+  }),
+  quality: (w) => gauges(w, {
+    title: 'Measured quality',
+    note: 'Lighthouse, mean of 8 pages on an audited client build',
+    scores: [['Performance', 98], ['Accessibility', 96], ['SEO', 93], ['Audit criteria', 80, '%']],
+  }),
+  code: (w) => code(w, {
+    title: 'Code sample',
+    file: 'shipping-rules.php',
+    lines: [
+      [['add_filter', 'fn'], ['(', 'punct'], ["'woocommerce_package_rates'", 'str'], [',', 'punct']],
+      [['  fn', 'kw'], ['(', 'punct'], ['$rates', 'var'], [', ', 'punct'], ['$pkg', 'var'], [') => ', 'punct'], ['array_filter', 'fn'], ['(', 'punct']],
+      [['    $rates', 'var'], [',', 'punct']],
+      [['    fn', 'kw'], ['(', 'punct'], ['$r', 'var'], [') => ', 'punct'], ['prefix_zone', 'fn'], ['(', 'punct'], ['$pkg', 'var'], [')', 'punct']],
+      [['      ->', 'punct'], ['allows', 'fn'], ['(', 'punct'], ['$r', 'var'], ['->', 'punct'], ['method_id', 'var'], [')', 'punct']],
+      [['  ), ', 'punct'], ['10', 'num'], [', ', 'punct'], ['2', 'num'], [');', 'punct']],
+    ],
+    caption: ['One filter, no extra plugin', 'Hides the shipping methods a', "customer's zone can't use."],
+  }),
 };
 
 const SNAKE = 'dist/snake.svg';

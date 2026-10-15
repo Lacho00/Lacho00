@@ -45,6 +45,13 @@
 </tr>
 </table>
 
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/quality-mobile-dark.svg" />
+  <img src="assets/quality-dark.svg" width="100%" alt="Measured quality: Lighthouse performance 98, accessibility 96, SEO 93, and 80% of audit criteria met, mean of 8 pages on an audited client build." />
+</picture>
+</p>
+
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>What I do</h2>
@@ -53,6 +60,13 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
   <img src="assets/craft-dark.svg" width="100%" alt="What I do: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites; automation and AI, Node and TypeScript bots and Claude Code plugins." />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/workflow-mobile-dark.svg" />
+  <img src="assets/workflow-dark.svg" width="100%" alt="How I work: design in Figma, a pixel-close HTML demo, a WordPress theme with ACF and i18n, an audit for accessibility, SEO and speed, then shipping with environment sync." />
 </picture>
 </p>
 
@@ -69,6 +83,13 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/code-mobile-dark.svg" />
+  <img src="assets/code-dark.svg" width="100%" alt="Code sample: a WooCommerce filter on woocommerce_package_rates that hides the shipping methods a customer's zone can't use." />
+</picture>
+</p>
+
+<p>
+<picture>
   <source media="(max-width: 600px)" srcset="assets/stack-mobile-dark.svg" />
   <img src="assets/stack-dark.svg" width="100%" alt="Languages: share across my repositories" />
 </picture>
@@ -77,6 +98,13 @@
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <h2>Open source &amp; tools</h2>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/terminal-mobile-dark.svg" />
+  <img src="assets/terminal-dark.svg" width="100%" alt="Terminal: running /wp-yolo demo/ in claude-wp-builder splits the demo into sections, scaffolds a Tailwind and ACF theme, builds fields and template parts, seeds content in Spanish and English, and leaves the theme ready for review." />
+</picture>
+</p>
 
 <p>
 <picture>

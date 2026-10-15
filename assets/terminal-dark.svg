@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="270" viewBox="0 0 860 270" role="img" aria-label="Terminal: &gt; /wp-yolo demo/; ✓ demo split into sections; ✓ theme scaffolded · Tailwind + ACF; ✓ fields + template parts per section; ✓ content seeded · es / en; → theme ready for review.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0a0f"/><stop offset="54%" stop-color="#101018"/><stop offset="100%" stop-color="#0a0a0f"/>
+  </linearGradient>
+  <radialGradient id="glow-a"><stop offset="0%" stop-color="#7b93f5" stop-opacity="0.13"/><stop offset="100%" stop-color="#7b93f5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow-b"><stop offset="0%" stop-color="#3858e9" stop-opacity="0.12"/><stop offset="100%" stop-color="#3858e9" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .glow-a { animation: drift-a 14s ease-in-out infinite; }
+  .glow-b { animation: drift-b 18s ease-in-out infinite; }
+  .in { animation: fade-in 0.6s ease-out backwards; }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes drift-a { 50% { transform: translate(40px, 12px); } }
+  @keyframes drift-b { 50% { transform: translate(-36px, -10px); } }
+  @keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  .k0 { animation: k0 11s linear infinite; } @keyframes k0 { 0% { fill-opacity: 1; } 3%, 6.36% { fill-opacity: 0; } 6.86%, 100% { fill-opacity: 1; } }
+  .k1 { animation: k1 11s linear infinite; } @keyframes k1 { 0% { fill-opacity: 1; } 3%, 7.00% { fill-opacity: 0; } 7.50%, 100% { fill-opacity: 1; } }
+  .k2 { animation: k2 11s linear infinite; } @keyframes k2 { 0% { fill-opacity: 1; } 3%, 7.64% { fill-opacity: 0; } 8.14%, 100% { fill-opacity: 1; } }
+  .k3 { animation: k3 11s linear infinite; } @keyframes k3 { 0% { fill-opacity: 1; } 3%, 8.27% { fill-opacity: 0; } 8.77%, 100% { fill-opacity: 1; } }
+  .k4 { animation: k4 11s linear infinite; } @keyframes k4 { 0% { fill-opacity: 1; } 3%, 8.91% { fill-opacity: 0; } 9.41%, 100% { fill-opacity: 1; } }
+  .k5 { animation: k5 11s linear infinite; } @keyframes k5 { 0% { fill-opacity: 1; } 3%, 9.55% { fill-opacity: 0; } 10.05%, 100% { fill-opacity: 1; } }
+  .k6 { animation: k6 11s linear infinite; } @keyframes k6 { 0% { fill-opacity: 1; } 3%, 10.18% { fill-opacity: 0; } 10.68%, 100% { fill-opacity: 1; } }
+  .k7 { animation: k7 11s linear infinite; } @keyframes k7 { 0% { fill-opacity: 1; } 3%, 10.82% { fill-opacity: 0; } 11.32%, 100% { fill-opacity: 1; } }
+  .k8 { animation: k8 11s linear infinite; } @keyframes k8 { 0% { fill-opacity: 1; } 3%, 11.45% { fill-opacity: 0; } 11.95%, 100% { fill-opacity: 1; } }
+  .k9 { animation: k9 11s linear infinite; } @keyframes k9 { 0% { fill-opacity: 1; } 3%, 12.09% { fill-opacity: 0; } 12.59%, 100% { fill-opacity: 1; } }
+  .k10 { animation: k10 11s linear infinite; } @keyframes k10 { 0% { fill-opacity: 1; } 3%, 12.73% { fill-opacity: 0; } 13.23%, 100% { fill-opacity: 1; } }
+  .k11 { animation: k11 11s linear infinite; } @keyframes k11 { 0% { fill-opacity: 1; } 3%, 13.36% { fill-opacity: 0; } 13.86%, 100% { fill-opacity: 1; } }
+  .k12 { animation: k12 11s linear infinite; } @keyframes k12 { 0% { fill-opacity: 1; } 3%, 14.00% { fill-opacity: 0; } 14.50%, 100% { fill-opacity: 1; } }
+  .k13 { animation: k13 11s linear infinite; } @keyframes k13 { 0% { fill-opacity: 1; } 3%, 14.64% { fill-opacity: 0; } 15.14%, 100% { fill-opacity: 1; } }
+  .l0 { animation: l0 11s linear infinite; } @keyframes l0 { 0% { opacity: 1; } 3%, 19.82% { opacity: 0; } 20.32%, 100% { opacity: 1; } }
+  .l1 { animation: l1 11s linear infinite; } @keyframes l1 { 0% { opacity: 1; } 3%, 24.82% { opacity: 0; } 25.32%, 100% { opacity: 1; } }
+  .l2 { animation: l2 11s linear infinite; } @keyframes l2 { 0% { opacity: 1; } 3%, 29.82% { opacity: 0; } 30.32%, 100% { opacity: 1; } }
+  .l3 { animation: l3 11s linear infinite; } @keyframes l3 { 0% { opacity: 1; } 3%, 34.82% { opacity: 0; } 35.32%, 100% { opacity: 1; } }
+  .l4 { animation: l4 11s linear infinite; } @keyframes l4 { 0% { opacity: 1; } 3%, 39.82% { opacity: 0; } 40.32%, 100% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="860" height="270" rx="20" fill="url(#bg)"/>
+<ellipse class="glow-a" cx="172" cy="27" rx="301" ry="162" fill="url(#glow-a)"/>
+<ellipse class="glow-b" cx="688" cy="256.5" rx="301" ry="162" fill="url(#glow-b)"/>
+<rect x="26" y="26" width="808" height="218" rx="14" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/><circle cx="44" cy="43" r="5" fill="#7b93f5"/><circle cx="60" cy="43" r="5" fill="#4a68ee"/><circle cx="76" cy="43" r="5" fill="#2c45c4"/><text x="430" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e" text-anchor="middle">claude-wp-builder</text><line x1="26" y1="60" x2="834" y2="60" stroke="#7b93f5" stroke-opacity="0.25"/>
+<text x="48" y="94" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e6edf3" xml:space="preserve"><tspan fill="#7b93f5">&gt; </tspan><tspan class="k0">/</tspan><tspan class="k1">w</tspan><tspan class="k2">p</tspan><tspan class="k3">-</tspan><tspan class="k4">y</tspan><tspan class="k5">o</tspan><tspan class="k6">l</tspan><tspan class="k7">o</tspan><tspan class="k8"> </tspan><tspan class="k9">d</tspan><tspan class="k10">e</tspan><tspan class="k11">m</tspan><tspan class="k12">o</tspan><tspan class="k13">/</tspan></text>
+<g class="l0"><text x="48" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" xml:space="preserve"><tspan fill="#9aabf5" font-weight="700">✓</tspan> demo split into sections</text></g>
+<g class="l1"><text x="48" y="142" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" xml:space="preserve"><tspan fill="#9aabf5" font-weight="700">✓</tspan> theme scaffolded · Tailwind + ACF</text></g>
+<g class="l2"><text x="48" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" xml:space="preserve"><tspan fill="#9aabf5" font-weight="700">✓</tspan> fields + template parts per section</text></g>
+<g class="l3"><text x="48" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" xml:space="preserve"><tspan fill="#9aabf5" font-weight="700">✓</tspan> content seeded · es / en</text></g>
+<g class="l4"><text x="48" y="214" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" xml:space="preserve"><tspan fill="#7b93f5" font-weight="700">→</tspan> theme ready for review<tspan class="cursor" fill="#7b93f5">_</tspan></text></g>
+<rect x="0.5" y="0.5" width="859" height="269" rx="19.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
+</svg>

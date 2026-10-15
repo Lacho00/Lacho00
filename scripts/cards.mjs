@@ -6,7 +6,7 @@
 export const DESKTOP = 860;
 export const PHONE = 320;
 export const FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif";
-const MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace";
+export const MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace";
 
 export const C = {
   bg0: '#0a0a0f', bg1: '#101018', panel: 'rgba(8,8,12,0.5)', empty: '#16161f',
@@ -14,7 +14,7 @@ export const C = {
   blue: '#3858e9', mid: '#4a68ee', deep: '#2c45c4', night: '#1e2f8a',
 };
 
-const esc = (s) => String(s).replace(/&(?!amp;|lt;|gt;|quot;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+export const esc = (s) => String(s).replace(/&(?!amp;|lt;|gt;|quot;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const plain = (s) => String(s).replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 
 // No font metrics at build time: estimate a label's width from rough
@@ -48,7 +48,7 @@ export const text = (x, y, s, { size = 13, weight = 400, fill = C.text, spacing,
   `${weight !== 400 ? ` font-weight="${weight}"` : ''}${spacing ? ` letter-spacing="${spacing}"` : ''}` +
   `${anchor ? ` text-anchor="${anchor}"` : ''} fill="${fill}">${esc(s)}</text>`;
 
-const eyebrow = (x, y, s) => text(x, y, s.toUpperCase(), { size: 11, weight: 800, spacing: 4, fill: C.muted });
+export const eyebrow = (x, y, s) => text(x, y, s.toUpperCase(), { size: 11, weight: 800, spacing: 4, fill: C.muted });
 
 // Shared shell: background, two slow glows, outer border and the base styles
 // every card uses (fade-in, cursor blink, reduced motion).
@@ -80,9 +80,9 @@ ${body}
 </svg>
 `;
 
-const panel = (x, y, w, h, r = 16) =>
+export const panel = (x, y, w, h, r = 16) =>
   `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${C.panel}" stroke="${C.accent}" stroke-opacity="0.5"/>`;
-const delay = (i, step = 0.08) => ` style="animation-delay:${(i * step).toFixed(2)}s"`;
+export const delay = (i, step = 0.08) => ` style="animation-delay:${(i * step).toFixed(2)}s"`;
 
 // Hero: avatar, handle, name, headline and the top languages.
 export function hero(w, { avatar, handle, name, headline, langs }) {
@@ -273,7 +273,6 @@ export function projects(w, { repos }) {
   return frame(w, h, `Projects: ${repos.map((r) => `${r.name}, ${plain(r.description)}`).join('; ')}`, parts.join('\n'));
 }
 
-// Contribution calendar, lit week by week. A phone shows the last 20 weeks.
 // The contribution grid with a snake eating through it. The grid and its
 // animation come from Platane/snk (run by the workflow); this only frames
 // its SVG like the other cards, with the yearly total above it.
@@ -293,24 +292,3 @@ export function snake(w, { svg, total }) {
   return frame(w, y0 + sh + (wide ? 14 : 12), `Activity: ${total} contributions in the last year, with a snake eating through the contribution grid.`, parts.join('\n'));
 }
 
-export function activity(w, { weeks, total }) {
-  const wide = w > 500;
-  const pad = wide ? 28 : 14;
-  const shown = wide ? weeks.slice(-53) : weeks.slice(-20);
-  const cell = wide ? 11 : 11;
-  const step = cell + (wide ? 3 : 3);
-  const levels = [C.empty, C.night, C.deep, C.blue, C.accent];
-  const gridW = shown.length * step - (step - cell);
-  const x0 = (w - gridW) / 2;
-  const parts = [eyebrow(pad + 2, 44, 'Activity'), text(pad + 2, 72, `${total.toLocaleString('en-US')} contributions in the last year`, { size: wide ? 18 : 16, weight: 800 })];
-  const y0 = 94;
-  shown.forEach((days, i) => {
-    const cells = days
-      .map((d) => `<rect x="${x0 + i * step}" y="${y0 + d.weekday * step}" width="${cell}" height="${cell}" rx="2.5" fill="${levels[d.level]}"/>`)
-      .join('');
-    parts.push(`<g class="in"${delay(i, 0.035)}>${cells}</g>`);
-  });
-  if (!wide) parts.push(text(w - pad - 2, y0 + 7 * step + 16, 'last 20 weeks', { size: 11.5, fill: C.muted, anchor: 'end' }));
-  const h = y0 + 7 * step + (wide ? 22 : 34);
-  return frame(w, h, `Activity: ${total} contributions in the last year.`, parts.join('\n'));
-}
