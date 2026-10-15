@@ -46,7 +46,11 @@
   <img src="assets/stack-dark.svg" width="100%" alt="Lacho animated technology stack" />
 </picture>
 
-<p align="center"><sub>PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · ACF/SCF · Polylang/WPML · WP-CLI<br />TypeScript · Node.js · Cloudflare Workers · Supabase · Python · Claude Code / MCP</sub></p>
+<p align="center"><sub>PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · ACF/SCF · Polylang/WPML · Rank Math · WP-CLI<br />Elementor / Elementor Pro · Divi · WPBakery · Crocoblock · premium themes with child themes · custom themes from scratch<br />TypeScript · Node.js · Hono · Cloudflare Workers · D1 · Drizzle · Supabase / Postgres · grammY<br />Claude Code / MCP · Playwright · Vitest · GitHub Actions · Python</sub></p>
+
+<picture>
+  <img src="assets/builders-dark.svg" width="100%" alt="Page builders and themes Lacho works with" />
+</picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 

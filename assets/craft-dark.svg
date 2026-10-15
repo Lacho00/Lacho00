@@ -83,13 +83,13 @@
       <rect x="28" y="60" width="257" height="96" rx="16" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.7"/>
       <rect x="28" y="82" width="4" height="52" rx="2" fill="#7b93f5"/>
       <text x="52" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">Multilingual</text>
-      <text x="52" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">Polylang &amp; WPML on 15 sites</text>
+      <text x="52" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">Polylang &amp; WPML on 8 sites</text>
       
     </g><g class="aura-chip" style="animation-delay:90ms">
       <rect x="301" y="60" width="257" height="96" rx="16" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.7"/>
       <rect x="301" y="82" width="4" height="52" rx="2" fill="#4a68ee"/>
-      <text x="325" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">Custom code</text>
-      <text x="325" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">REST, blocks, post types</text>
+      <text x="325" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e6edf3">Custom themes</text>
+      <text x="325" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" fill="#8b949e">9 from scratch, Tailwind + ACF</text>
       
     </g><g class="aura-chip" style="animation-delay:180ms">
       <rect x="574" y="60" width="257" height="96" rx="16" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.7"/>

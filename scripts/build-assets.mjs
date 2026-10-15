@@ -33,7 +33,7 @@ const SECTIONS = [
     params: {
       items: highlights([
         ['WordPress', 'Custom themes &amp; stores'],
-        ['WooCommerce', 'Online stores, end to end'],
+        ['WooCommerce', '11 online stores'],
         ['AI tooling', 'Claude Code plugins &amp; bots'],
       ]),
     },
@@ -44,8 +44,8 @@ const SECTIONS = [
     section: 'highlights',
     params: {
       items: highlights([
-        ['18', 'client sites in the past year'],
-        ['1,000+', 'commits in client work'],
+        ['27', 'WordPress sites built or run'],
+        ['1,000+', 'commits since late 2025'],
         ['479', 'commits to claude-wp-builder'],
       ]),
     },
@@ -56,12 +56,24 @@ const SECTIONS = [
     section: 'highlights',
     params: {
       items: highlights([
-        ['Multilingual', 'Polylang &amp; WPML on 15 sites'],
-        ['Custom code', 'REST, blocks, post types'],
+        ['Multilingual', 'Polylang &amp; WPML on 8 sites'],
+        ['Custom themes', '9 from scratch, Tailwind + ACF'],
         ['Site audits', 'Security, SEO, a11y, speed'],
       ]),
     },
     replace: [['>HIGHLIGHTS<', '>WHAT I BRING<']],
+  },
+  {
+    name: 'builders',
+    section: 'highlights',
+    params: {
+      items: highlights([
+        ['Elementor', '17 sites, Pro on 13'],
+        ['Divi &amp; WPBakery', 'Builds and maintenance'],
+        ['Premium themes', 'Ecomus, WoodMart, child themes'],
+      ]),
+    },
+    replace: [['>HIGHLIGHTS<', '>BUILDERS &amp; THEMES<']],
   },
   { name: 'stack', post: (svg) => dropEmptyLanguages(svg) },
   { name: 'projects', params: { repos: 'yojahny55/claude-wp-builder,yojahny55/ix-wp-envsync' } },
