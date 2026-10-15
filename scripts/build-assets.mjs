@@ -18,8 +18,8 @@ const DESCRIPTIONS = {
   'ix-wp-envsync': 'Syncs a WordPress site between local, staging and production, with rollback.',
 };
 
-const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: FEATURED, token });
-console.log(`token: ${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
+const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: FEATURED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
+console.log(`token: ${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, repos: ${data.repoCount}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
 
 const CARDS = {
   hero: (w) => hero(w, {
