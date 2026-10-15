@@ -17,6 +17,7 @@
 
 <p>
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/about-mobile-dark.svg" />
   <img src="assets/about-dark.svg" width="100%" alt="About: I build custom WordPress themes and WooCommerce stores, and the tools behind them. Open to WordPress and automation work." />
 </picture>
 </p>

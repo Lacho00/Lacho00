@@ -4,6 +4,7 @@
 // visitor. Run by .github/workflows/profile-assets.yml once a day.
 import { mkdir, writeFile } from 'node:fs/promises';
 import { buildStackCard } from './stack-card.mjs';
+import { buildAboutMobile } from './mobile-cards.mjs';
 
 const BASE = 'https://www.gitskins.com/api/section';
 const COMMON = {
@@ -111,6 +112,7 @@ const recolor = (svg) =>
 
 await mkdir('assets', { recursive: true });
 await writeFile('assets/tools-dark.svg', buildStackCard());
+await writeFile('assets/about-mobile-dark.svg', buildAboutMobile());
 let failed = 0;
 
 for (const s of SECTIONS) {

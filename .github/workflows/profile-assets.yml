@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/build-assets.mjs, scripts/stack-card.mjs, scripts/stack-icons.mjs, .github/workflows/profile-assets.yml]
+    paths: [scripts/build-assets.mjs, scripts/stack-card.mjs, scripts/stack-icons.mjs, scripts/mobile-cards.mjs, .github/workflows/profile-assets.yml]
 
 permissions:
   contents: write
