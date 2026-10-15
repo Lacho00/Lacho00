@@ -17,10 +17,8 @@ const QUERY = `query($login: String!) {
   }
 }`;
 
-// A fine-grained token only lists private repositories through viewer, so
-// the owner's token reads them there; any other token reads public ones.
-const REPOS = (viewer) => `query${viewer ? '' : '($login: String!)'} {
-  owner: ${viewer ? 'viewer' : 'user(login: $login)'} {
+const PUBLIC_REPOS = `query($login: String!) {
+  user(login: $login) {
     repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
       nodes { languages(first: 20) { edges { size node { name } } } }
     }
@@ -35,6 +33,32 @@ const REPO = `query($owner: String!, $name: String!) {
     repositoryTopics(first: 10) { nodes { topic { name } } }
   }
 }`;
+
+async function rest(token, path) {
+  const res = await fetch(`https://api.github.com${path}`, {
+    headers: { authorization: `bearer ${token}`, accept: 'application/vnd.github+json' },
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!res.ok) throw new Error(`GitHub API ${path}: ${res.status}`);
+  return res.json();
+}
+
+// The owner's token lists private repositories too. A fine-grained token
+// only shows them through REST, so that path uses it; any other token reads
+// the public ones over GraphQL. Both return GraphQL-shaped language edges.
+async function ownerLanguages(token, login, ownerToken) {
+  if (!ownerToken) {
+    const { user } = await gql(token, PUBLIC_REPOS, { login });
+    return user.repositories.nodes.map((n) => n.languages.edges);
+  }
+  const list = await rest(token, '/user/repos?affiliation=owner&visibility=all&per_page=100');
+  const edges = [];
+  for (const r of list.filter((r) => !r.fork)) {
+    const langs = await rest(token, `/repos/${r.full_name}/languages`);
+    edges.push(Object.entries(langs).map(([name, size]) => ({ size, node: { name } })));
+  }
+  return edges;
+}
 
 async function gql(token, query, variables) {
   const res = await fetch('https://api.github.com/graphql', {
@@ -66,7 +90,7 @@ function languageShares(repos, top) {
 
 export async function loadProfile({ login, featured, contributed, token, ownerToken }) {
   const { user } = await gql(token, QUERY, { login });
-  const { owner } = await gql(token, REPOS(ownerToken), ownerToken ? {} : { login });
+  const ownEdges = await ownerLanguages(token, login, ownerToken);
   const avatar = await fetch(user.avatarUrl, { signal: AbortSignal.timeout(30_000) });
   const avatarData = `data:${avatar.headers.get('content-type')};base64,${Buffer.from(await avatar.arrayBuffer()).toString('base64')}`;
 
@@ -76,7 +100,7 @@ export async function loadProfile({ login, featured, contributed, token, ownerTo
     const { repository: r } = await gql(token, REPO, { owner, name });
     repos.push(r);
   }
-  const edges = owner.repositories.nodes.map((n) => n.languages.edges);
+  const edges = [...ownEdges];
   for (const full of contributed) {
     const r = repos.find((x) => full.endsWith(`/${x.name}`));
     if (r) edges.push(r.languages.edges);
@@ -87,7 +111,7 @@ export async function loadProfile({ login, featured, contributed, token, ownerTo
     avatar: avatarData,
     total: cal.totalContributions,
     weeks: cal.weeks.map((w) => w.contributionDays.map((d) => ({ weekday: d.weekday, level: LEVEL[d.contributionLevel] }))),
-    repoCount: owner.repositories.nodes.length,
+    repoCount: ownEdges.length,
     langs: languageShares(edges, 6),
     repos: repos.map((r) => ({
       name: r.name,
