@@ -70,7 +70,7 @@ const SECTIONS = [
       items: highlights([
         ['Elementor', '17 sites, Pro on 13'],
         ['Divi &amp; WPBakery', 'Builds and maintenance'],
-        ['Premium themes', 'Ecomus, WoodMart, child themes'],
+        ['ThemeForest themes', 'Customized on 13 sites'],
       ]),
     },
     replace: [['>HIGHLIGHTS<', '>BUILDERS &amp; THEMES<']],
@@ -78,7 +78,6 @@ const SECTIONS = [
   { name: 'stack', post: (svg) => dropEmptyLanguages(svg) },
   { name: 'projects', params: { repos: 'yojahny55/claude-wp-builder,yojahny55/ix-wp-envsync' } },
   { name: 'heatmap', params: { style: 'snake' } },
-  { name: 'chess' },
 ];
 
 // The watermark is a single <text> node; the aria-label also names the generator.
