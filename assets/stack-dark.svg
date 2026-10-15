@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="280" viewBox="0 0 860 280" role="img" aria-label="gs-stack-lacho00-github-dark-dark section">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="216" viewBox="0 0 860 216" role="img" aria-label="gs-stack-lacho00-github-dark-dark section">
   <defs>
     <linearGradient id="gs-stack-lacho00-github-dark-dark-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0a0f"/>
@@ -72,13 +72,13 @@
     @keyframes gs-stack-lacho00-github-dark-dark-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
   </style>
   <g id="gs-stack-lacho00-github-dark-dark">
-    <rect width="860" height="280" rx="20" fill="url(#gs-stack-lacho00-github-dark-dark-bg)"/>
+    <rect width="860" height="216" rx="20" fill="url(#gs-stack-lacho00-github-dark-dark-bg)"/>
     
     <ellipse class="aura-orb-a" cx="138" cy="50" rx="206" ry="129" fill="url(#gs-stack-lacho00-github-dark-dark-orb-0)"/>
     <ellipse class="aura-orb-b" cx="654" cy="62" rx="241" ry="118" fill="url(#gs-stack-lacho00-github-dark-dark-orb-1)"/>
     <ellipse class="aura-orb-c" cx="499" cy="246" rx="310" ry="95" fill="url(#gs-stack-lacho00-github-dark-dark-orb-2)"/>
     <ellipse class="aura-orb-b" cx="826" cy="218" rx="172" ry="118" fill="url(#gs-stack-lacho00-github-dark-dark-orb-3)"/>
-    <rect x="28" y="26" width="804" height="226" rx="20" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/>
+    <rect x="28" y="26" width="804" height="162" rx="20" fill="rgba(8,8,12,0.5)" stroke="#7b93f5" stroke-opacity="0.5"/>
     <text x="46" y="61" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="27" font-weight="850" letter-spacing="-0.4" fill="#e6edf3">Language Stack</text>
     <text x="48" y="84" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="650" letter-spacing="1.1" fill="#8b949e">Repository-weighted technologies</text>
     <text x="685" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#7b93f5">&gt; stack.scan</text>
@@ -101,20 +101,8 @@
       <text x="306" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="850" fill="#8f57c7" text-anchor="end">7%</text>
       <rect x="330" y="162" width="466" height="9" rx="4.5" fill="rgba(255,255,255,0.12)"/>
       <rect class="aura-bar" x="330" y="162" width="33" height="9" rx="4.5" fill="#8f57c7" opacity="0.95"/>
-    </g><g class="aura-chip" style="animation-delay:285ms">
-      <circle cx="54" cy="203" r="5" fill="#e55b38"/>
-      <text x="72" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="800" fill="#e6edf3">HTML</text>
-      <text x="306" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="850" fill="#e55b38" text-anchor="end">0%</text>
-      <rect x="330" y="194" width="466" height="9" rx="4.5" fill="rgba(255,255,255,0.12)"/>
-      <rect class="aura-bar" x="330" y="194" width="19" height="9" rx="4.5" fill="#e55b38" opacity="0.95"/>
-    </g><g class="aura-chip" style="animation-delay:380ms">
-      <circle cx="54" cy="235" r="5" fill="#c7568e"/>
-      <text x="72" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="800" fill="#e6edf3">SCSS</text>
-      <text x="306" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="850" fill="#c7568e" text-anchor="end">0%</text>
-      <rect x="330" y="226" width="466" height="9" rx="4.5" fill="rgba(255,255,255,0.12)"/>
-      <rect class="aura-bar" x="330" y="226" width="19" height="9" rx="4.5" fill="#c7568e" opacity="0.95"/>
     </g>
     
-    <rect x="0.5" y="0.5" width="859" height="279" rx="19.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
+    <rect x="0.5" y="0.5" width="859" height="215" rx="19.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
   </g>
 </svg>

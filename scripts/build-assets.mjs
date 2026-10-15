@@ -63,7 +63,7 @@ const SECTIONS = [
     },
     replace: [['>HIGHLIGHTS<', '>WHAT I BRING<']],
   },
-  { name: 'stack' },
+  { name: 'stack', post: (svg) => dropEmptyLanguages(svg) },
   { name: 'projects', params: { repos: 'yojahny55/claude-wp-builder,yojahny55/ix-wp-envsync' } },
   { name: 'heatmap', params: { style: 'snake' } },
   { name: 'chess' },
@@ -84,6 +84,24 @@ const PALETTE = {
   '#a371f7': '#2c45c4', '#22d3ee': '#1e2f8a',
   '#39d353': '#3858e9', '#43d55c': '#4a68ee', '#7ee787': '#9aabf5', '#3fb950': '#3858e9',
 };
+// The stack card lists languages that round to 0%. Drop those rows and shrink
+// the card by one row height (32px) per dropped row.
+const dropEmptyLanguages = (svg) => {
+  let dropped = 0;
+  const out = svg.replace(/<g class="aura-chip"[^>]*>(?:(?!<\/g>)[\s\S])*?>0%<[\s\S]*?<\/g>/g, () => {
+    dropped++;
+    return '';
+  });
+  if (!dropped) return svg;
+  const h = Number(out.match(/<svg[^>]*\sheight="(\d+)"/)[1]);
+  const shrink = (v) => v - dropped * 32;
+  // Outer card, its 1px border, and the inner panel (54px shorter).
+  const sizes = new Set([h, h - 1, h - 54]);
+  return out
+    .replace(/viewBox="0 0 (\d+) (\d+)"/, (_, w, vh) => `viewBox="0 0 ${w} ${shrink(+vh)}"`)
+    .replace(/height="(\d+)"/g, (m, v) => (sizes.has(+v) ? `height="${shrink(+v)}"` : m));
+};
+
 const recolor = (svg) =>
   svg
     .replace(/#[0-9a-f]{6}\b/gi, (c) => PALETTE[c.toLowerCase()] ?? c)
@@ -113,6 +131,7 @@ for (const s of SECTIONS) {
       if (!svg.includes(from)) console.warn(`${s.name}-${mode}: "${from}" not found`);
       svg = svg.replaceAll(from, to);
     }
+    if (s.post) svg = s.post(svg);
     if (/gitskins/i.test(svg.replace(/id="gs-[^"]*"|#gs-[\w-]+/g, ''))) {
       console.warn(`${s.name}-${mode}: generator name still present`);
     }
