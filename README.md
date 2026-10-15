@@ -58,7 +58,9 @@
   <img src="assets/stack-dark.svg" width="100%" alt="Language stack" />
 </picture>
 
-<p align="center"><sub>PHP · WordPress · WooCommerce · JavaScript · Tailwind CSS · ACF/SCF · Polylang/WPML · Rank Math · WP-CLI<br />Elementor / Elementor Pro · Divi · WPBakery · Crocoblock · customized ThemeForest themes · custom themes from scratch<br />TypeScript · Node.js · Hono · Cloudflare Workers · D1 · Drizzle · Supabase / Postgres · grammY<br />Claude Code / MCP · Playwright · Vitest · GitHub Actions · Python</sub></p>
+<picture>
+  <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
+</picture>
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
