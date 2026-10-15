@@ -123,7 +123,7 @@
 <table width="100%">
 <tr>
 <td width="33%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
-<td width="33%" valign="top"><p><strong>issue-bot</strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Personal · Node.js · private</sub></p></td>
+<td width="33%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Personal · Node.js · MIT</sub></p></td>
 <td width="34%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
 </tr>
 </table>
