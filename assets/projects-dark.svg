@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="274" viewBox="0 0 860 274" role="img" aria-label="gs-projects-lacho00-aurora-dark section">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="274" viewBox="0 0 860 274" role="img" aria-label="gs-projects-lacho00-github-dark-dark section">
   <defs>
-    <linearGradient id="gs-projects-lacho00-aurora-dark-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#042f2e"/>
-      <stop offset="54%" stop-color="#134e4a"/>
-      <stop offset="100%" stop-color="#042f2e"/>
+    <linearGradient id="gs-projects-lacho00-github-dark-dark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="54%" stop-color="#101018"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
     </linearGradient>
     
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-0" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.72"/>
-      <stop offset="58%" stop-color="#2dd4bf" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-0" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b93f5" stop-opacity="0.32"/>
+      <stop offset="58%" stop-color="#7b93f5" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7b93f5" stop-opacity="0.00"/>
     </radialGradient>
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
-      <stop offset="58%" stop-color="#22d3ee" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3858e9" stop-opacity="0.23"/>
+      <stop offset="58%" stop-color="#3858e9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3858e9" stop-opacity="0.00"/>
     </radialGradient>
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.72"/>
-      <stop offset="58%" stop-color="#4f8cff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2c45c4" stop-opacity="0.32"/>
+      <stop offset="58%" stop-color="#2c45c4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2c45c4" stop-opacity="0.00"/>
     </radialGradient>
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
-      <stop offset="58%" stop-color="#a78bfa" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e2f8a" stop-opacity="0.23"/>
+      <stop offset="58%" stop-color="#1e2f8a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1e2f8a" stop-opacity="0.00"/>
     </radialGradient>
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-4" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.72"/>
-      <stop offset="58%" stop-color="#f472b6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3858e9" stop-opacity="0.32"/>
+      <stop offset="58%" stop-color="#3858e9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3858e9" stop-opacity="0.00"/>
     </radialGradient>
-    <radialGradient id="gs-projects-lacho00-aurora-dark-orb-5" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.5"/>
-      <stop offset="58%" stop-color="#4ade80" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#4ade80" stop-opacity="0"/>
+    <radialGradient id="gs-projects-lacho00-github-dark-dark-orb-5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9aabf5" stop-opacity="0.23"/>
+      <stop offset="58%" stop-color="#9aabf5" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#9aabf5" stop-opacity="0.00"/>
     </radialGradient>
-    <linearGradient id="gs-projects-lacho00-aurora-dark-shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ccfbf1" stop-opacity="0.2"/>
-      <stop offset="44%" stop-color="#2dd4bf" stop-opacity="0.82"/>
-      <stop offset="100%" stop-color="#5eead4" stop-opacity="0.22"/>
+    <linearGradient id="gs-projects-lacho00-github-dark-dark-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.2"/>
+      <stop offset="44%" stop-color="#7b93f5" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#8b949e" stop-opacity="0.22"/>
     </linearGradient>
-    <linearGradient id="gs-projects-lacho00-aurora-dark-holo" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ccfbf1"/>
-      <stop offset="18%" stop-color="#042f2e"/>
-      <stop offset="38%" stop-color="#2dd4bf"/>
-      <stop offset="58%" stop-color="#5eead4"/>
-      <stop offset="78%" stop-color="#042f2e"/>
-      <stop offset="100%" stop-color="#ccfbf1"/>
+    <linearGradient id="gs-projects-lacho00-github-dark-dark-holo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="18%" stop-color="#0a0a0f"/>
+      <stop offset="38%" stop-color="#7b93f5"/>
+      <stop offset="58%" stop-color="#8b949e"/>
+      <stop offset="78%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#e6edf3"/>
       <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
   <style>
-    #gs-projects-lacho00-aurora-dark .aura-orb-a { animation: gs-projects-lacho00-aurora-dark-float-a 9s ease-in-out infinite; }
-    #gs-projects-lacho00-aurora-dark .aura-orb-b { animation: gs-projects-lacho00-aurora-dark-float-b 11s ease-in-out infinite 1.1s; }
-    #gs-projects-lacho00-aurora-dark .aura-orb-c { animation: gs-projects-lacho00-aurora-dark-float-c 13s ease-in-out infinite 0.6s; }
-    #gs-projects-lacho00-aurora-dark .aura-ring { animation: gs-projects-lacho00-aurora-dark-ring 8s ease-in-out infinite; }
-    #gs-projects-lacho00-aurora-dark .aura-ring-b { animation: gs-projects-lacho00-aurora-dark-ring 10s ease-in-out infinite 1.6s; }
-    #gs-projects-lacho00-aurora-dark .aura-chip { animation: gs-projects-lacho00-aurora-dark-chip 650ms ease-out both; }
-    #gs-projects-lacho00-aurora-dark .aura-cursor { animation: gs-projects-lacho00-aurora-dark-cursor 1.1s step-end infinite; }
-    #gs-projects-lacho00-aurora-dark .aura-bar { animation: gs-projects-lacho00-aurora-dark-bar 1.15s ease-out both; transform-box: fill-box; transform-origin: left; }
-    #gs-projects-lacho00-aurora-dark .aura-cell { animation: gs-projects-lacho00-aurora-dark-cell 520ms ease-out both; }
-    @keyframes gs-projects-lacho00-aurora-dark-cell { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes gs-projects-lacho00-aurora-dark-float-a { 0%,100% { transform: translate(0,0); opacity: .58; } 50% { transform: translate(28px,-20px); opacity: .86; } }
-    @keyframes gs-projects-lacho00-aurora-dark-float-b { 0%,100% { transform: translate(0,0); opacity: .42; } 50% { transform: translate(-24px,18px); opacity: .72; } }
-    @keyframes gs-projects-lacho00-aurora-dark-float-c { 0%,100% { transform: translate(0,0) scale(1); opacity: .34; } 50% { transform: translate(18px,-12px) scale(1.18); opacity: .62; } }
-    @keyframes gs-projects-lacho00-aurora-dark-ring { 0%,100% { opacity: .06; } 50% { opacity: .22; } }
-    @keyframes gs-projects-lacho00-aurora-dark-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes gs-projects-lacho00-aurora-dark-cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
-    @keyframes gs-projects-lacho00-aurora-dark-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    #gs-projects-lacho00-github-dark-dark .aura-orb-a { animation: gs-projects-lacho00-github-dark-dark-float-a 9s ease-in-out infinite; }
+    #gs-projects-lacho00-github-dark-dark .aura-orb-b { animation: gs-projects-lacho00-github-dark-dark-float-b 11s ease-in-out infinite 1.1s; }
+    #gs-projects-lacho00-github-dark-dark .aura-orb-c { animation: gs-projects-lacho00-github-dark-dark-float-c 13s ease-in-out infinite 0.6s; }
+    #gs-projects-lacho00-github-dark-dark .aura-ring { animation: gs-projects-lacho00-github-dark-dark-ring 8s ease-in-out infinite; }
+    #gs-projects-lacho00-github-dark-dark .aura-ring-b { animation: gs-projects-lacho00-github-dark-dark-ring 10s ease-in-out infinite 1.6s; }
+    #gs-projects-lacho00-github-dark-dark .aura-chip { animation: gs-projects-lacho00-github-dark-dark-chip 650ms ease-out both; }
+    #gs-projects-lacho00-github-dark-dark .aura-cursor { animation: gs-projects-lacho00-github-dark-dark-cursor 1.1s step-end infinite; }
+    #gs-projects-lacho00-github-dark-dark .aura-bar { animation: gs-projects-lacho00-github-dark-dark-bar 1.15s ease-out both; transform-box: fill-box; transform-origin: left; }
+    #gs-projects-lacho00-github-dark-dark .aura-cell { animation: gs-projects-lacho00-github-dark-dark-cell 520ms ease-out both; }
+    @keyframes gs-projects-lacho00-github-dark-dark-cell { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-lacho00-github-dark-dark-float-a { 0%,100% { transform: translate(0,0); opacity: .58; } 50% { transform: translate(28px,-20px); opacity: .86; } }
+    @keyframes gs-projects-lacho00-github-dark-dark-float-b { 0%,100% { transform: translate(0,0); opacity: .42; } 50% { transform: translate(-24px,18px); opacity: .72; } }
+    @keyframes gs-projects-lacho00-github-dark-dark-float-c { 0%,100% { transform: translate(0,0) scale(1); opacity: .34; } 50% { transform: translate(18px,-12px) scale(1.18); opacity: .62; } }
+    @keyframes gs-projects-lacho00-github-dark-dark-ring { 0%,100% { opacity: .06; } 50% { opacity: .22; } }
+    @keyframes gs-projects-lacho00-github-dark-dark-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-lacho00-github-dark-dark-cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes gs-projects-lacho00-github-dark-dark-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
   </style>
-  <g id="gs-projects-lacho00-aurora-dark">
-    <rect width="860" height="274" rx="20" fill="url(#gs-projects-lacho00-aurora-dark-bg)"/>
+  <g id="gs-projects-lacho00-github-dark-dark">
+    <rect width="860" height="274" rx="20" fill="url(#gs-projects-lacho00-github-dark-dark-bg)"/>
     
-    <ellipse class="aura-orb-a" cx="138" cy="49" rx="206" ry="126" fill="url(#gs-projects-lacho00-aurora-dark-orb-0)"/>
-    <ellipse class="aura-orb-b" cx="654" cy="60" rx="241" ry="115" fill="url(#gs-projects-lacho00-aurora-dark-orb-1)"/>
-    <ellipse class="aura-orb-c" cx="499" cy="241" rx="310" ry="93" fill="url(#gs-projects-lacho00-aurora-dark-orb-2)"/>
-    <ellipse class="aura-orb-b" cx="826" cy="214" rx="172" ry="115" fill="url(#gs-projects-lacho00-aurora-dark-orb-3)"/>
-    <text x="30" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#2dd4bf">PROJECTS.LIST</text>
-    <text x="180" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#5eead4" fill-opacity="0.8">./projects.sh --all</text>
-    <text x="830" y="40" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#5eead4" fill-opacity="0.7">2 pinned</text>
-    <line x1="28" y1="52" x2="832" y2="52" stroke="#2dd4bf" stroke-opacity="0.5" stroke-width="1.5"/>
+    <ellipse class="aura-orb-a" cx="138" cy="49" rx="206" ry="126" fill="url(#gs-projects-lacho00-github-dark-dark-orb-0)"/>
+    <ellipse class="aura-orb-b" cx="654" cy="60" rx="241" ry="115" fill="url(#gs-projects-lacho00-github-dark-dark-orb-1)"/>
+    <ellipse class="aura-orb-c" cx="499" cy="241" rx="310" ry="93" fill="url(#gs-projects-lacho00-github-dark-dark-orb-2)"/>
+    <ellipse class="aura-orb-b" cx="826" cy="214" rx="172" ry="115" fill="url(#gs-projects-lacho00-github-dark-dark-orb-3)"/>
+    <text x="30" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#7b93f5">PROJECTS.LIST</text>
+    <text x="180" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" fill-opacity="0.8">./projects.sh --all</text>
+    <text x="830" y="40" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" fill-opacity="0.7">2 pinned</text>
+    <line x1="28" y1="52" x2="832" y2="52" stroke="#7b93f5" stroke-opacity="0.5" stroke-width="1.5"/>
     <a href="https://github.com/yojahny55/claude-wp-builder" target="_blank">
     <g opacity="0" transform="translate(28,88)">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.25s" fill="freeze"/>
-    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#2dd4bf">
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#7b93f5">
       <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="0.25s" repeatCount="indefinite"/>
     </rect>
-    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#2dd4bf" fill-opacity="0.06"/>
-    <line x1="0" y1="30" x2="394" y2="30" stroke="#2dd4bf" stroke-opacity="0.5"/>
-    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5eead4"><tspan fill="#2dd4bf">&#8226;</tspan> yojahny55/claude-wp-builder</text>
-    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
-    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#ccfbf1">claude-wp-builder<tspan fill="#2dd4bf"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.65s" repeatCount="indefinite"/></tspan></text>
-    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#5eead4">Claude Code plugin for building custom</text>
-    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#5eead4">WordPress sites, demo-first workflow…</text>
-    <rect x="18" y="112" width="99" height="18" rx="9" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.4"/><text x="68" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#2dd4bf">accessibility</text><rect x="124.2" y="112" width="35" height="18" rx="9" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.4"/><text x="142" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#2dd4bf">acf</text><rect x="166.4" y="112" width="74" height="18" rx="9" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.4"/><text x="203" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#2dd4bf">bilingual</text>
-    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#5eead4"><tspan fill="#89e051">&#9733;</tspan> 6<tspan fill="#5eead4" fill-opacity="0.7" dx="12">updated 1d ago</tspan></text>
-    <circle cx="348" cy="92" r="25" fill="none" stroke="#5eead4" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="99.24 57.84" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.55s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="99.24 57.84" dur="0.6s" begin="0.55s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#f1e05a" stroke-width="8" stroke-dasharray="29.00 128.08" stroke-dashoffset="-99.24" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.73s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="29.00 128.08" dur="0.6s" begin="0.73s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#4F5D95" stroke-width="8" stroke-dasharray="20.89 136.19" stroke-dashoffset="-128.24" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.91s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="20.89 136.19" dur="0.6s" begin="0.91s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#663399" stroke-width="8" stroke-dasharray="6.82 150.26" stroke-dashoffset="-149.13" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.09s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="6.82 150.26" dur="0.6s" begin="1.09s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#f472b6" stroke-width="8" stroke-dasharray="1.14 155.94" stroke-dashoffset="-155.94" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.27s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="1.14 155.94" dur="0.6s" begin="1.27s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#ccfbf1">63%</text>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#7b93f5" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#7b93f5" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#7b93f5">&#8226;</tspan> yojahny55/claude-wp-builder</text>
+    <circle cx="378" cy="15" r="4" fill="#3858e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">claude-wp-builder<tspan fill="#7b93f5"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.65s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Claude Code plugin for building custom</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">WordPress sites, demo-first workflow…</text>
+    <rect x="18" y="112" width="99" height="18" rx="9" fill="#7b93f5" fill-opacity="0.14" stroke="#7b93f5" stroke-opacity="0.4"/><text x="68" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#7b93f5">accessibility</text><rect x="124.2" y="112" width="35" height="18" rx="9" fill="#7b93f5" fill-opacity="0.14" stroke="#7b93f5" stroke-opacity="0.4"/><text x="142" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#7b93f5">acf</text><rect x="166.4" y="112" width="74" height="18" rx="9" fill="#7b93f5" fill-opacity="0.14" stroke="#7b93f5" stroke-opacity="0.4"/><text x="203" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#7b93f5">bilingual</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#89e051">&#9733;</tspan> 6<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated 1d ago</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="99.24 57.84" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.55s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="99.24 57.84" dur="0.6s" begin="0.55s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#f1e05a" stroke-width="8" stroke-dasharray="29.00 128.08" stroke-dashoffset="-99.24" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.73s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="29.00 128.08" dur="0.6s" begin="0.73s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#4F5D95" stroke-width="8" stroke-dasharray="20.89 136.19" stroke-dashoffset="-128.24" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.91s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="20.89 136.19" dur="0.6s" begin="0.91s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#663399" stroke-width="8" stroke-dasharray="6.82 150.26" stroke-dashoffset="-149.13" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.09s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="6.82 150.26" dur="0.6s" begin="1.09s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#3858e9" stroke-width="8" stroke-dasharray="1.14 155.94" stroke-dashoffset="-155.94" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.27s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="1.14 155.94" dur="0.6s" begin="1.27s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">63%</text>
     </g>
   </a><a href="https://github.com/yojahny55/ix-wp-envsync" target="_blank">
     <g opacity="0" transform="translate(438,88)">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.40s" fill="freeze"/>
-    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#2dd4bf">
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#7b93f5">
       <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="1.10s" repeatCount="indefinite"/>
     </rect>
-    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#2dd4bf" fill-opacity="0.06"/>
-    <line x1="0" y1="30" x2="394" y2="30" stroke="#2dd4bf" stroke-opacity="0.5"/>
-    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5eead4"><tspan fill="#2dd4bf">&#8226;</tspan> yojahny55/ix-wp-envsync</text>
-    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
-    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#ccfbf1">ix-wp-envsync<tspan fill="#2dd4bf"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.80s" repeatCount="indefinite"/></tspan></text>
-    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#5eead4">A sync enviroments plugin for</text>
-    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#5eead4">Wordpress</text>
-    <rect x="18" y="112" width="35" height="18" rx="9" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.4"/><text x="36" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#2dd4bf">PHP</text>
-    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#5eead4"><tspan fill="#6c7ab1">&#9733;</tspan> 1<tspan fill="#5eead4" fill-opacity="0.7" dx="12">updated 20h ago</tspan></text>
-    <circle cx="348" cy="92" r="25" fill="none" stroke="#5eead4" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#4F5D95" stroke-width="8" stroke-dasharray="152.17 4.91" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.70s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="152.17 4.91" dur="0.6s" begin="0.70s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="4.91 152.17" stroke-dashoffset="-152.17" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.88s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="4.91 152.17" dur="0.6s" begin="0.88s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#ccfbf1">97%</text>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#7b93f5" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#7b93f5" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#7b93f5">&#8226;</tspan> yojahny55/ix-wp-envsync</text>
+    <circle cx="378" cy="15" r="4" fill="#3858e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">ix-wp-envsync<tspan fill="#7b93f5"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.80s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">A sync enviroments plugin for</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Wordpress</text>
+    <rect x="18" y="112" width="35" height="18" rx="9" fill="#7b93f5" fill-opacity="0.14" stroke="#7b93f5" stroke-opacity="0.4"/><text x="36" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#7b93f5">PHP</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#6c7ab1">&#9733;</tspan> 1<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated 20h ago</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#4F5D95" stroke-width="8" stroke-dasharray="152.17 4.91" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.70s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="152.17 4.91" dur="0.6s" begin="0.70s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="4.91 152.17" stroke-dashoffset="-152.17" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.88s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="4.91 152.17" dur="0.6s" begin="0.88s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">97%</text>
     </g>
   </a>
     
-    <rect x="0.5" y="0.5" width="859" height="273" rx="19.5" fill="none" stroke="#2dd4bf" stroke-opacity="0.62"/>
+    <rect x="0.5" y="0.5" width="859" height="273" rx="19.5" fill="none" stroke="#7b93f5" stroke-opacity="0.62"/>
   </g>
 </svg>

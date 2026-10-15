@@ -1,12 +1,13 @@
 // Fetches the animated profile sections, removes the generator watermark,
-// rewrites the default copy and writes one SVG per section and colour mode
-// into assets/. Run by .github/workflows/profile-assets.yml once a day.
+// recolours them, rewrites the default copy and writes one SVG per section
+// into assets/. Only the dark mode is built: the profile stays dark for every
+// visitor. Run by .github/workflows/profile-assets.yml once a day.
 import { mkdir, writeFile } from 'node:fs/promises';
 
 const BASE = 'https://www.gitskins.com/api/section';
 const COMMON = {
   username: 'lacho00',
-  theme: 'aurora',
+  theme: 'github-dark',
   avatar: 'https://avatars.githubusercontent.com/u/109485638?v=4',
 };
 const highlights = (items) => items.map(([title, text]) => `${title}::${text}`).join('|');
@@ -74,11 +75,28 @@ const clean = (svg) =>
     .replace(/<text[^>]*>\s*gitskins\.com\s*<\/text>/gi, '')
     .replace(/aria-label="GitSkins /g, 'aria-label="');
 
+// Near-black base with WordPress blue accents. Keys are the github-dark theme
+// colours; language dots (PHP, JS, CSS, HTML) are left as they are.
+const PALETTE = {
+  '#0d1117': '#0a0a0f', '#0b0e14': '#07070b', '#111722': '#0e0e15', '#161b22': '#101018',
+  '#1f2938': '#16161f', '#262f3b': '#1c1c27', '#2a3038': '#20202a',
+  '#58a6ff': '#7b93f5', '#3b82f6': '#3858e9', '#bedcff': '#c9d2fb',
+  '#a371f7': '#2c45c4', '#22d3ee': '#1e2f8a',
+  '#39d353': '#3858e9', '#43d55c': '#4a68ee', '#7ee787': '#9aabf5', '#3fb950': '#3858e9',
+};
+const recolor = (svg) =>
+  svg
+    .replace(/#[0-9a-f]{6}\b/gi, (c) => PALETTE[c.toLowerCase()] ?? c)
+    // Dim the background glows for a quieter look.
+    .replace(/(<radialGradient[^>]*orb[\s\S]*?<\/radialGradient>)/g, (g) =>
+      g.replace(/stop-opacity="([\d.]+)"/g, (_, o) => `stop-opacity="${(o * 0.45).toFixed(2)}"`),
+    );
+
 await mkdir('assets', { recursive: true });
 let failed = 0;
 
 for (const s of SECTIONS) {
-  for (const mode of ['dark', 'light']) {
+  for (const mode of ['dark']) {
     const url = new URL(`${BASE}/${s.section ?? s.name}`);
     for (const [k, v] of Object.entries({ ...COMMON, ...s.params, mode })) {
       // Items are written with entities so the SVG stays valid; the API wants plain text.
@@ -90,7 +108,7 @@ for (const s of SECTIONS) {
       failed++;
       continue;
     }
-    let svg = clean(await res.text());
+    let svg = recolor(clean(await res.text()));
     for (const [from, to] of s.replace ?? []) {
       if (!svg.includes(from)) console.warn(`${s.name}-${mode}: "${from}" not found`);
       svg = svg.replaceAll(from, to);

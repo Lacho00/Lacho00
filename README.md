@@ -1,12 +1,10 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
   <img src="assets/hero-dark.svg" width="100%" alt="Lacho cinematic profile scene" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/wordmark-light.svg" />
   <img src="assets/wordmark-dark.svg" width="100%" alt="Lacho animated ASCII name" />
 </picture>
 
@@ -19,12 +17,10 @@
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" />
   <img src="assets/about-dark.svg" width="100%" alt="About Lacho" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/numbers-light.svg" />
   <img src="assets/numbers-dark.svg" width="100%" alt="Lacho by the numbers" />
 </picture>
 
@@ -33,12 +29,10 @@
 <h2>In the current cut</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg" />
   <img src="assets/focus-dark.svg" width="100%" alt="Lacho cinematic highlights" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/craft-light.svg" />
   <img src="assets/craft-dark.svg" width="100%" alt="What Lacho brings to a build" />
 </picture>
 
@@ -49,7 +43,6 @@
 <h2>Production palette</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
   <img src="assets/stack-dark.svg" width="100%" alt="Lacho animated technology stack" />
 </picture>
 
@@ -60,7 +53,6 @@
 <h2>Featured reel</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg" />
   <img src="assets/projects-dark.svg" width="100%" alt="Lacho cinematic project reel" />
 </picture>
 
@@ -84,14 +76,12 @@
 <h2>Contribution trail</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/heatmap-light.svg" />
   <img src="assets/heatmap-dark.svg" width="100%" alt="Lacho contribution snake" />
 </picture>
 
 <h2>Play the next move</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/chess-light.svg" />
   <img src="assets/chess-dark.svg" width="100%" alt="Lacho animated chess replay" />
 </picture>
 
