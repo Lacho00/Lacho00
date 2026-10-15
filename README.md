@@ -106,8 +106,8 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/heatmap-mobile-dark.svg" />
-  <img src="assets/heatmap-dark.svg" width="100%" alt="Contribution graph" />
+  <source media="(max-width: 600px)" srcset="assets/snake-mobile-dark.svg" />
+  <img src="assets/snake-dark.svg" width="100%" alt="Contribution graph with a snake eating through it" />
 </picture>
 </p>
 
