@@ -7,8 +7,8 @@
 </picture>
 </p>
 
-<p><strong>Web developer · WordPress, WooCommerce &amp; automation</strong></p>
-<p>Custom themes, online stores, and the AI tooling that builds them faster.</p>
+<p><strong>Fullstack developer · TypeScript, WordPress &amp; automation</strong></p>
+<p>APIs, bots and integrations in TypeScript, React dashboards, WordPress themes and stores.</p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (working proficiency)</sub></p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
@@ -19,7 +19,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/about-mobile-dark.svg" />
-  <img src="assets/about-dark.svg" width="100%" alt="About: I build WordPress themes and stores, and the TypeScript tools and bots that automate the work around them. Open to WordPress and automation work." />
+  <img src="assets/about-dark.svg" width="100%" alt="About: I build TypeScript backends, bots and integrations, plus WordPress themes and stores. Now building with React. Open to fullstack and automation work." />
 </picture>
 </p>
 
@@ -27,6 +27,60 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/numbers-mobile-dark.svg" />
   <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
+</picture>
+</p>
+
+<p align="center"><sub>─────── ◇ ───────</sub></p>
+
+<h2>Open source &amp; tools</h2>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/terminal-mobile-dark.svg" />
+  <img src="assets/terminal-dark.svg" width="100%" alt="Terminal: running /wp-yolo demo/ in claude-wp-builder splits the demo into sections, scaffolds a Tailwind and ACF theme, builds fields and template parts, seeds content in Spanish and English, and leaves the theme ready for review." />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/projects-mobile-dark.svg" />
+  <img src="assets/projects-dark.svg" width="100%" alt="Featured public projects" />
+</picture>
+</p>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/claude-wp-builder">claude-wp-builder</a></strong></p><p>Claude Code plugin that turns an approved HTML demo into a custom WordPress theme, with fields, bilingual content, seeding and a full site audit. I wrote over half of the commits: test suite, audit agents, commands and skills.</p><p><sub>Contributor · Claude Code · PHP</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/ix-wp-envsync">ix-wp-envsync</a></strong></p><p>Syncs a WordPress site between local, staging and production: three-way diff, production wins on conflict, rollback. I worked on the sync engine and hardened the remote side.</p><p><sub>Contributor · WordPress plugin · PHP</sub></p></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/boardly">boardly</a></strong></p><p>Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports.</p><p><sub>Next.js · React · Prisma</sub></p></td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
+<td width="50%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
+</tr>
+</table>
+
+<p align="center"><sub>─────── ◇ ───────</sub></p>
+
+<h2>Stack</h2>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
+  <img src="assets/tools-dark.svg" width="100%" alt="Stack. Fullstack: TypeScript, React, Next.js, Node.js, Prisma, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/code-mobile-dark.svg" />
+  <img src="assets/code-dark.svg" width="100%" alt="Code sample: a WooCommerce filter on woocommerce_package_rates that hides the shipping methods a customer's zone can't use." />
 </picture>
 </p>
 
@@ -72,59 +126,6 @@
 
 <p align="center"><sub>─────── ◇ ───────</sub></p>
 
-<h2>Stack</h2>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
-  <img src="assets/tools-dark.svg" width="100%" alt="Stack. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/code-mobile-dark.svg" />
-  <img src="assets/code-dark.svg" width="100%" alt="Code sample: a WooCommerce filter on woocommerce_package_rates that hides the shipping methods a customer's zone can't use." />
-</picture>
-</p>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
-<h2>Open source &amp; tools</h2>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/terminal-mobile-dark.svg" />
-  <img src="assets/terminal-dark.svg" width="100%" alt="Terminal: running /wp-yolo demo/ in claude-wp-builder splits the demo into sections, scaffolds a Tailwind and ACF theme, builds fields and template parts, seeds content in Spanish and English, and leaves the theme ready for review." />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/projects-mobile-dark.svg" />
-  <img src="assets/projects-dark.svg" width="100%" alt="Featured public projects" />
-</picture>
-</p>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/claude-wp-builder">claude-wp-builder</a></strong></p><p>Claude Code plugin that turns an approved HTML demo into a custom WordPress theme, with fields, bilingual content, seeding and a full site audit. I wrote over half of the commits: test suite, audit agents, commands and skills.</p><p><sub>Contributor · Claude Code · PHP</sub></p></td>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/ix-wp-envsync">ix-wp-envsync</a></strong></p><p>Syncs a WordPress site between local, staging and production: three-way diff, production wins on conflict, rollback. I worked on the sync engine and hardened the remote side.</p><p><sub>Contributor · WordPress plugin · PHP</sub></p></td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
-<td width="50%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
-</tr>
-</table>
-
-<p align="center"><sub>─────── ◇ ───────</sub></p>
-
 <h2>Activity</h2>
 
 <p>
@@ -140,7 +141,7 @@
 
 <h2>Contact</h2>
 
-<p>Open to WordPress, WooCommerce and automation work, freelance or remote.<br />LinkedIn or email is the fastest way to reach me.</p>
+<p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />LinkedIn or email is the fastest way to reach me.</p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>

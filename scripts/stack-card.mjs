@@ -4,6 +4,11 @@ import { ICONS } from './stack-icons.mjs';
 import { C, FONT, frame, textWidth } from './cards.mjs';
 
 const GROUPS = [
+  ['FULLSTACK', [
+    ['typescript', 'TypeScript'], ['react', 'React'], ['nextdotjs', 'Next.js'], ['nodedotjs', 'Node.js'], ['prisma', 'Prisma'], ['hono', 'Hono'],
+    ['cloudflareworkers', 'Cloudflare Workers'], ['cloudflare', 'D1'], ['drizzle', 'Drizzle'],
+    ['supabase', 'Supabase'], ['postgresql', 'Postgres'], ['grammy', 'grammY'],
+  ]],
   ['WORDPRESS', [
     ['php', 'PHP'], ['wordpress', 'WordPress'], ['woocommerce', 'WooCommerce'],
     ['javascript', 'JavaScript'], ['tailwindcss', 'Tailwind CSS'], ['acf', 'ACF / SCF'],
@@ -12,11 +17,6 @@ const GROUPS = [
   ['BUILDERS &amp; THEMES', [
     ['elementor', 'Elementor / Elementor Pro'], ['divi', 'Divi'], ['wpbakery', 'WPBakery'],
     ['crocoblock', 'Crocoblock'], ['envato', 'ThemeForest themes'], ['code', 'Custom themes from scratch'],
-  ]],
-  ['JS &amp; BACKEND', [
-    ['typescript', 'TypeScript'], ['nodedotjs', 'Node.js'], ['hono', 'Hono'],
-    ['cloudflareworkers', 'Cloudflare Workers'], ['cloudflare', 'D1'], ['drizzle', 'Drizzle'],
-    ['supabase', 'Supabase'], ['postgresql', 'Postgres'], ['grammy', 'grammY'],
   ]],
   ['TOOLING &amp; AI', [
     ['claude', 'Claude Code'], ['modelcontextprotocol', 'MCP'], ['playwright', 'Playwright'],

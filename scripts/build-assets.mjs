@@ -17,11 +17,12 @@ if (!token) throw new Error('Set PROFILE_TOKEN or GITHUB_TOKEN');
 
 const CONTRIBUTED = ['yojahny55/claude-wp-builder', 'yojahny55/ix-wp-envsync'];
 // Own repos are already counted in the language shares, so only the contributed ones are added there.
-const FEATURED = [...CONTRIBUTED, 'Lacho00/issue-bot'];
+const FEATURED = [...CONTRIBUTED, 'Lacho00/issue-bot', 'Lacho00/boardly'];
 // Shorter, cleaner copy than the repos' own descriptions.
 const DESCRIPTIONS = {
   'claude-wp-builder': 'Claude Code plugin that turns an approved HTML demo into a custom WordPress theme.',
   'ix-wp-envsync': 'Syncs a WordPress site between local, staging and production, with rollback.',
+  'boardly': 'Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports.',
   'issue-bot': 'Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.',
 };
 
@@ -33,12 +34,12 @@ const CARDS = {
     avatar: data.avatar,
     handle: 'lacho00',
     name: 'Lacho',
-    headline: 'Web developer · WordPress, WooCommerce & automation',
+    headline: 'Fullstack developer · TypeScript, WordPress & automation',
     langs: data.langs.slice(0, 4).map((l) => l.name),
   }),
   about: (w) => about(w, {
-    headline: 'I build WordPress themes and stores, and the TypeScript tools and bots that automate the work around them.',
-    cta: 'open to WordPress & automation work',
+    headline: 'I build TypeScript backends, bots and integrations, plus WordPress themes and stores. Now building with React.',
+    cta: 'open to fullstack & automation work',
   }),
   numbers: (w) => highlights(w, {
     title: 'By the numbers',
