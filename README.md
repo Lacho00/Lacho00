@@ -19,7 +19,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/about-mobile-dark.svg" />
-  <img src="assets/about-dark.svg" width="100%" alt="About: I build WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React. Open to fullstack and automation work." />
+  <img src="assets/about-dark.svg" width="100%" alt="About: WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React. Open to fullstack and automation work." />
 </picture>
 </p>
 
@@ -50,8 +50,8 @@
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/claude-wp-builder">claude-wp-builder</a></strong></p><p>Claude Code plugin that turns an approved HTML demo into a custom WordPress theme, with fields, bilingual content, seeding and a full site audit. I wrote over half of the commits: test suite, audit agents, commands and skills.</p><p><sub>Contributor · Claude Code · PHP</sub></p></td>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/ix-wp-envsync">ix-wp-envsync</a></strong></p><p>Syncs a WordPress site between local, staging and production: three-way diff, production wins on conflict, rollback. I worked on the sync engine and hardened the remote side.</p><p><sub>Contributor · WordPress plugin · PHP</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/claude-wp-builder">claude-wp-builder</a></strong></p><p>Claude Code plugin that turns an approved HTML demo into a custom WordPress theme, with fields, bilingual content, seeding and a full site audit. Author of over half of the commits: test suite, audit agents, commands and skills.</p><p><sub>Contributor · Claude Code · PHP</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/yojahny55/ix-wp-envsync">ix-wp-envsync</a></strong></p><p>Syncs a WordPress site between local, staging and production: three-way diff, production wins on conflict, rollback. Sync-engine work and hardening of the remote side.</p><p><sub>Contributor · WordPress plugin · PHP</sub></p></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
@@ -108,19 +108,19 @@
 
 <hr>
 
-<h2>What I do</h2>
+<h2>Expertise</h2>
 
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
-  <img src="assets/craft-dark.svg" width="100%" alt="What I do: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites; automation and AI, Node and TypeScript bots and Claude Code plugins." />
+  <img src="assets/craft-dark.svg" width="100%" alt="Expertise: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites; automation and AI, Node and TypeScript bots and Claude Code plugins." />
 </picture>
 </p>
 
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/workflow-mobile-dark.svg" />
-  <img src="assets/workflow-dark.svg" width="100%" alt="How I work: design in Figma, a pixel-close HTML demo, a WordPress theme with ACF and i18n, an audit for accessibility, SEO and speed, then shipping with environment sync." />
+  <img src="assets/workflow-dark.svg" width="100%" alt="Workflow: design in Figma, a pixel-close HTML demo, a WordPress theme with ACF and i18n, an audit for accessibility, SEO and speed, then shipping with environment sync." />
 </picture>
 </p>
 
@@ -141,7 +141,7 @@
 
 <h2>Contact</h2>
 
-<p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />LinkedIn or email is the fastest way to reach me.</p>
+<p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />Fastest contact: LinkedIn or email.</p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>
