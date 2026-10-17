@@ -8,7 +8,7 @@
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { DESKTOP, PHONE, about, hero, highlights, projects, snake } from './cards.mjs';
-import { loadProfile } from './data.mjs';
+import { commitCount, loadProfile } from './data.mjs';
 import { code, gauges, pipeline, terminal } from './showcase-cards.mjs';
 import { buildStackCard } from './stack-card.mjs';
 
@@ -27,6 +27,7 @@ const DESCRIPTIONS = {
 };
 
 const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: CONTRIBUTED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
+const builderCommits = await commitCount(token, 'yojahny55/claude-wp-builder', 'Lacho00');
 console.log(`token: ${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, repos: ${data.repoCount}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
 
 const CARDS = {
@@ -43,7 +44,7 @@ const CARDS = {
   }),
   numbers: (w) => highlights(w, {
     title: 'By the numbers',
-    items: [['27', 'WordPress sites built or run'], ['15+', 'in-house plugins'], ['1,000+', 'commits since late 2025'], ['479', 'commits to claude-wp-builder']],
+    items: [['27', 'WordPress sites built or run'], ['15+', 'in-house plugins'], ['1,000+', 'commits since late 2025'], [builderCommits ? builderCommits.toLocaleString('en-US') : '500+', 'commits to claude-wp-builder']],
   }),
   craft: (w) => highlights(w, {
     title: 'Expertise',
