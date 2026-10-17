@@ -3,34 +3,34 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile-dark.svg" />
-  <img src="assets/hero-dark.svg" width="100%" alt="Lacho, web developer: WordPress, WooCommerce and automation" />
+  <img src="assets/hero-dark.svg" width="100%" alt="Lacho, fullstack developer: WordPress, TypeScript and automation" />
 </picture>
 </p>
 
-<p><strong>Fullstack developer · TypeScript, WordPress &amp; automation</strong></p>
-<p>APIs, bots and integrations in TypeScript, React dashboards, WordPress themes and stores.</p>
+<p><strong>Fullstack developer · WordPress, TypeScript &amp; automation</strong></p>
+<p>WordPress themes, stores and plugins; APIs, bots and integrations in TypeScript; React dashboards.</p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (B1)</sub></p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/about-mobile-dark.svg" />
-  <img src="assets/about-dark.svg" width="100%" alt="About: I build TypeScript backends, bots and integrations, plus WordPress themes and stores. Now building with React. Open to fullstack and automation work." />
+  <img src="assets/about-dark.svg" width="100%" alt="About: I build WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React. Open to fullstack and automation work." />
 </picture>
 </p>
 
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/numbers-mobile-dark.svg" />
-  <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
+  <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 15+ in-house plugins; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
 </picture>
 </p>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <h2>Open source &amp; tools</h2>
 
@@ -66,7 +66,7 @@
 </tr>
 </table>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <h2>Stack</h2>
 
@@ -84,7 +84,7 @@
 </picture>
 </p>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <h2>Selected client work</h2>
 
@@ -106,7 +106,7 @@
 </picture>
 </p>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <h2>What I do</h2>
 
@@ -124,7 +124,7 @@
 </picture>
 </p>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <h2>Activity</h2>
 
@@ -135,7 +135,7 @@
 </picture>
 </p>
 
-<p align="center"><sub>─────── ◇ ───────</sub></p>
+<hr>
 
 <div align="center">
 
