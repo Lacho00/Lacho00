@@ -9,6 +9,7 @@
 
 <p><strong>Fullstack developer · WordPress, TypeScript &amp; automation</strong></p>
 <p>WordPress themes, stores and plugins; APIs, bots and integrations in TypeScript; a React dashboard.</p>
+<p><sub>Desarrollo fullstack: WordPress, TypeScript y automatización. Disponible para trabajo freelance y remoto.</sub></p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (B1)</sub></p>
 
 <p><a href="https://www.linkedin.com/in/lacho00">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
@@ -59,12 +60,6 @@
 </tr>
 </table>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top"><p><strong>figma-html-loop</strong></p><p>Turns a Figma frame into a pixel-close HTML demo, scored by image metrics and a vision-model judge.</p><p><sub>Contributor · private</sub></p></td>
-<td width="50%" valign="top"><p><strong>divisas-bot</strong></p><p>Personal finance ledger that turns bank SMS notifications into transactions, on Cloudflare Workers and D1.</p><p><sub>Personal · TypeScript · private</sub></p></td>
-</tr>
-</table>
 
 <hr>
 
@@ -148,7 +143,5 @@
 
 <h2>Contact</h2>
 
-<p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />Fastest contact: LinkedIn or email.</p>
-
-<p><a href="https://www.linkedin.com/in/lacho00">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
+<p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />Fastest contact: LinkedIn or email, both linked at the top.</p>
 </div>
