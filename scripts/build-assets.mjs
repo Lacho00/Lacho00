@@ -34,16 +34,16 @@ const CARDS = {
     avatar: data.avatar,
     handle: 'lacho00',
     name: 'Lacho',
-    headline: 'Fullstack developer · TypeScript, WordPress & automation',
+    headline: 'Fullstack developer · WordPress, TypeScript & automation',
     langs: data.langs.slice(0, 4).map((l) => l.name),
   }),
   about: (w) => about(w, {
-    headline: 'I build TypeScript backends, bots and integrations, plus WordPress themes and stores. Now building with React.',
+    headline: 'I build WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React.',
     cta: 'open to fullstack & automation work',
   }),
   numbers: (w) => highlights(w, {
     title: 'By the numbers',
-    items: [['27', 'WordPress sites built or run'], ['1,000+', 'commits since late 2025'], ['479', 'commits to claude-wp-builder']],
+    items: [['27', 'WordPress sites built or run'], ['15+', 'in-house plugins'], ['1,000+', 'commits since late 2025'], ['479', 'commits to claude-wp-builder']],
   }),
   craft: (w) => highlights(w, {
     title: 'What I do',
