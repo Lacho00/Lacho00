@@ -1,0 +1,5 @@
+cv/
+.claude/
+skills-lock.json
+.codebase-memory/
+node_modules/
