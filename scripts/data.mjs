@@ -88,6 +88,17 @@ function languageShares(repos, top) {
     .slice(0, top);
 }
 
+// Commits by login on the repo's default branch, as GitHub counts them.
+// Returns null when the API can't answer, so the caller keeps a fallback.
+export async function commitCount(token, repo, login) {
+  try {
+    const list = await rest(token, `/repos/${repo}/contributors?per_page=100`);
+    return list.find((c) => c.login === login)?.contributions ?? null;
+  } catch {
+    return null;
+  }
+}
+
 export async function loadProfile({ login, featured, contributed, token, ownerToken }) {
   const { user } = await gql(token, QUERY, { login });
   const ownEdges = await ownerLanguages(token, login, ownerToken);

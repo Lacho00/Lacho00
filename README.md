@@ -26,7 +26,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/numbers-mobile-dark.svg" />
-  <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 15+ in-house plugins; 1,000+ commits since late 2025; 479 commits to claude-wp-builder." />
+  <img src="assets/numbers-dark.svg" width="100%" alt="By the numbers: 27 WordPress sites built or run; 15+ in-house plugins; 1,000+ commits since late 2025; 500+ commits to claude-wp-builder." />
 </picture>
 </p>
 
@@ -73,7 +73,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
-  <img src="assets/tools-dark.svg" width="100%" alt="Stack. Fullstack: TypeScript, React, Next.js, Node.js, Prisma, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. JS and backend: TypeScript, Node.js, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
+  <img src="assets/tools-dark.svg" width="100%" alt="Stack. Fullstack: TypeScript, React, Next.js, Node.js, Prisma, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
 </picture>
 </p>
 
