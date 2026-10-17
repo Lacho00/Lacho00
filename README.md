@@ -68,11 +68,11 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top"><p><strong>Event ticketing store</strong></p><p>WooCommerce ticket sales with a local payment gateway, electronic invoicing and custom discount rules.</p><p><strong>4,500+</strong> paid orders and <strong>16,000+</strong> tickets issued in its first year.</p><p><sub>WooCommerce · Divi · payments</sub></p></td>
-<td width="50%" valign="top"><p><strong>Network of online stores</strong></p><p>Several WooCommerce stores on one customized premium theme, sharing in-house plugins for shipping zones, a location-aware catalog and multilingual stock.</p><p><strong>8</strong> stores, <strong>~2,600</strong> products, <strong>7</strong> shared in-house plugins.</p><p><sub>WooCommerce · Elementor · custom plugins</sub></p></td>
+<td width="50%" valign="top"><p><strong>Shared plugin for Cuban stores</strong></p><p>Woodofy, a WooCommerce plugin that teaches a store how Cuba works: provinces, municipalities, zones and shipping by weight. Maintained and extended with a location-aware catalog, multilingual stock and sales analytics.</p><p><strong>3</strong> stores in production share the same core.</p><p><sub>WooCommerce · PHP · custom plugins</sub></p></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong>Payment gateway integration</strong></p><p>WooCommerce gateway for a third-party wallet API: HPOS compatible, verified callbacks, token refresh.</p><p><sub>WooCommerce · PHP · REST</sub></p></td>
-<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Custom themes built from scratch with Tailwind and ACF, bilingual with Polylang, audited for security, accessibility and performance.</p><p><strong>4</strong> bilingual sites; audited ones score <strong>90+</strong> on Lighthouse for performance, accessibility and SEO.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
+<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Tailwind and ACF themes with Polylang, built from a designer's Figma or taken over and audited for security, accessibility and performance.</p><p>Mobile performance on one inherited site went from <strong>51</strong> to <strong>88</strong> in production.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
 </tr>
 </table>
 
