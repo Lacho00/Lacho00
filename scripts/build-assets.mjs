@@ -82,6 +82,22 @@ const CARDS = {
     ],
     caption: ['One filter, no extra plugin', 'Hides the shipping methods a', "customer's zone can't use."],
   }),
+  'code-ts': (w) => code(w, {
+    title: 'Code sample',
+    file: 'ingest.ts',
+    lines: [
+      [['ingest', 'var'], ['.', 'punct'], ['post', 'fn'], ['(', 'punct'], ["'/sms'", 'str'], [', ', 'punct'], ['async', 'kw'], [' (', 'punct'], ['c', 'var'], [') => {', 'punct']],
+      [['  const', 'kw'], [' sms', 'var'], [' = ', 'punct'], ['Sms', 'var'], ['.', 'punct'], ['safeParse', 'fn'], ['(', 'punct']],
+      [['    await', 'kw'], [' c', 'var'], ['.', 'punct'], ['req', 'var'], ['.', 'punct'], ['json', 'fn'], ['());', 'punct']],
+      [['  if', 'kw'], [' (!', 'punct'], ['sms', 'var'], ['.', 'punct'], ['success', 'var'], [')', 'punct']],
+      [['    return', 'kw'], [' c', 'var'], ['.', 'punct'], ['json', 'fn'], ['(', 'punct'], ['sms', 'var'], ['.', 'punct'], ['error', 'var'], [', ', 'punct'], ['400', 'num'], [');', 'punct']],
+      [['  const', 'kw'], [' entry', 'var'], [' = ', 'punct'], ['await', 'kw'], [' ingestSms', 'fn'], ['(', 'punct']],
+      [['    c', 'var'], ['.', 'punct'], ['var', 'var'], ['.', 'punct'], ['db', 'var'], [', ', 'punct'], ['sms', 'var'], ['.', 'punct'], ['data', 'var'], [');', 'punct']],
+      [['  return', 'kw'], [' c', 'var'], ['.', 'punct'], ['json', 'fn'], ['(', 'punct'], ['entry', 'var'], [');', 'punct']],
+      [['});', 'punct']],
+    ],
+    caption: ['Bank SMS in, ledger entry out', 'Hono route on Cloudflare Workers:', 'Zod check, then a D1 write.'],
+  }),
 };
 
 const SNAKE = 'dist/snake.svg';
