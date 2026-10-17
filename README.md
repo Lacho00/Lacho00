@@ -102,7 +102,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/quality-mobile-dark.svg" />
-  <img src="assets/quality-dark.svg" width="100%" alt="Measured quality: Lighthouse performance 98, accessibility 96, SEO 93, and 80% of audit criteria met, mean of 8 pages on an audited client build." />
+  <img src="assets/quality-dark.svg" width="100%" alt="Measured quality: Lighthouse performance, accessibility and SEO all 90+, and 80% of audit criteria met, mean of 8 pages on an audited client build." />
 </picture>
 </p>
 
