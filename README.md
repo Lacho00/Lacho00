@@ -55,7 +55,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/boardly">boardly</a></strong></p><p>Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports.</p><p><sub>Next.js · React · Prisma</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/boardly">boardly</a></strong></p><p>Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports.</p><p><sub>Next.js · React · Prisma</sub> · <a href="https://boardly-silk.vercel.app">Live demo</a></p></td>
 </tr>
 </table>
 
