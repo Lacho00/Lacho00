@@ -28,7 +28,7 @@ const DESCRIPTIONS = {
 
 const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: CONTRIBUTED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
 const builderCommits = await commitCount(token, 'yojahny55/claude-wp-builder', 'Lacho00');
-console.log(`token:${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, repos: ${data.repoCount}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
+console.log(`token: ${process.env.PROFILE_TOKEN ? 'PROFILE_TOKEN' : 'GITHUB_TOKEN'}, repos: ${data.repoCount}, languages: ${data.langs.map((l) => l.name).join(', ')}`);
 
 const CARDS = {
   hero: (w) => hero(w, {
