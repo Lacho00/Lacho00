@@ -8,7 +8,7 @@
 </p>
 
 <p><strong>Fullstack developer · WordPress, TypeScript &amp; automation</strong></p>
-<p>WordPress themes, stores and plugins; APIs, bots and integrations in TypeScript; React dashboards.</p>
+<p>WordPress themes, stores and plugins; APIs, bots and integrations in TypeScript; a React dashboard.</p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (B1)</sub></p>
 
 <p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
