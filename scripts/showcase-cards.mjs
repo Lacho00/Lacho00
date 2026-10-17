@@ -145,7 +145,7 @@ export function gauges(w, { title, note, scores }) {
   const cols = wide ? scores.length : 2;
   const cellW = (w - 2 * pad) / cols;
   const rowH = 2 * r + 46;
-  scores.forEach(([label, value, unit = ''], i) => {
+  scores.forEach(([label, value, unit = '', shown], i) => {
     const cx = pad + cellW * (i % cols) + cellW / 2;
     const cy = 66 + r + Math.floor(i / cols) * rowH;
     const off = circ * (1 - value / 100);
@@ -154,7 +154,7 @@ export function gauges(w, { title, note, scores }) {
       `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.empty}" stroke-width="${wide ? 7 : 6}"/>` +
         `<circle class="g${i}" cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${[C.accent, C.mid, C.blue, C.soft][i % 4]}" stroke-width="${wide ? 7 : 6}" stroke-linecap="round" ` +
         `stroke-dasharray="${circ.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}" transform="rotate(-90 ${cx} ${cy})"/>` +
-        text(cx, cy + (wide ? 8 : 6), `${value}${unit}`, { size: wide ? 22 : 18, weight: 850, anchor: 'middle' }) +
+        text(cx, cy + (wide ? 8 : 6), shown ?? `${value}${unit}`, { size: wide ? 22 : 18, weight: 850, anchor: 'middle' }) +
         text(cx, cy + r + 24, label, { size: 12.5, weight: 700, fill: C.soft, anchor: 'middle' }),
     );
   });
@@ -162,7 +162,7 @@ export function gauges(w, { title, note, scores }) {
   const ny = 66 + rows * rowH + 6;
   const noteLines = wrap(note, 11.5, w - 2 * pad);
   noteLines.forEach((l, i) => parts.push(text(w / 2, ny + i * 16, l, { size: 11.5, fill: C.muted, anchor: 'middle' })));
-  return frame(w, ny + (noteLines.length - 1) * 16 + 22, `${title}: ${scores.map(([l, v, u = '']) => `${l} ${v}${u}`).join(', ')}. ${note}.`, parts.join('\n'), css.join('\n  '));
+  return frame(w, ny + (noteLines.length - 1) * 16 + 22, `${title}: ${scores.map(([l, v, u = '', s]) => `${l} ${s ?? v + u}`).join(', ')}. ${note}.`, parts.join('\n'), css.join('\n  '));
 }
 
 // A short code sample written line by line, with syntax colours. Each line

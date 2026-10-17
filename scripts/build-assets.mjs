@@ -66,7 +66,7 @@ const CARDS = {
   quality: (w) => gauges(w, {
     title: 'Measured quality',
     note: 'Lighthouse, mean of 8 pages on an audited client build',
-    scores: [['Performance', 98], ['Accessibility', 96], ['SEO', 93], ['Audit criteria', 80, '%']],
+    scores: [['Performance', 98, '', '90+'], ['Accessibility', 96, '', '90+'], ['SEO', 93, '', '90+'], ['Audit criteria', 80, '%']],
   }),
   code: (w) => code(w, {
     title: 'Code sample',
