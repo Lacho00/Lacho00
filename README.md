@@ -95,7 +95,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong>Payment gateway integration</strong></p><p>WooCommerce gateway for a third-party wallet API: HPOS compatible, verified callbacks, token refresh.</p><p><sub>WooCommerce · PHP · REST</sub></p></td>
-<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Custom themes built from scratch with Tailwind and ACF, bilingual with Polylang, audited for security, accessibility and performance.</p><p><strong>4</strong> bilingual sites; audited ones score <strong>98</strong> performance and <strong>96+</strong> accessibility on Lighthouse.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
+<td width="50%" valign="top"><p><strong>Bilingual corporate sites</strong></p><p>Custom themes built from scratch with Tailwind and ACF, bilingual with Polylang, audited for security, accessibility and performance.</p><p><strong>4</strong> bilingual sites; audited ones score <strong>90+</strong> on Lighthouse for performance, accessibility and SEO.</p><p><sub>Tailwind · ACF · Polylang</sub></p></td>
 </tr>
 </table>
 
