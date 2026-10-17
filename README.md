@@ -68,7 +68,7 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top"><p><strong>Event ticketing store</strong></p><p>WooCommerce ticket sales with a local payment gateway, electronic invoicing and custom discount rules.</p><p><strong>4,500+</strong> paid orders and <strong>16,000+</strong> tickets issued in its first year.</p><p><sub>WooCommerce · Divi · payments</sub></p></td>
-<td width="50%" valign="top"><p><strong>Shared plugin for Cuban stores</strong></p><p>Woodofy, a WooCommerce plugin that teaches a store how Cuba works: provinces, municipalities, zones and shipping by weight. Maintained and extended with a location-aware catalog, multilingual stock and sales analytics.</p><p><strong>3</strong> stores in production share the same core.</p><p><sub>WooCommerce · PHP · custom plugins</sub></p></td>
+<td width="50%" valign="top"><p><strong>Shared plugin for Cuban stores</strong></p><p>Woodofy, a WooCommerce plugin that teaches a store how Cuba works: provinces, municipalities, zones and shipping by weight. Improved and fixed, with add-ons for a location-aware catalog, multilingual stock and sales analytics.</p><p><strong>3</strong> stores in production share the same core.</p><p><sub>WooCommerce · PHP · custom plugins</sub></p></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong>Payment gateway integration</strong></p><p>WooCommerce gateway for a third-party wallet API: HPOS compatible, verified callbacks, token refresh.</p><p><sub>WooCommerce · PHP · REST</sub></p></td>
