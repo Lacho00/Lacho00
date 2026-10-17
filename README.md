@@ -11,7 +11,7 @@
 <p>WordPress themes, stores and plugins; APIs, bots and integrations in TypeScript; a React dashboard.</p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (B1)</sub></p>
 
-<p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
+<p><a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>
 
 <hr>
@@ -44,7 +44,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/projects-mobile-dark.svg" />
-  <img src="assets/projects-dark.svg" width="100%" alt="Featured public projects" />
+  <img src="assets/projects-dark.svg" width="100%" alt="Featured projects: claude-wp-builder, a Claude Code plugin that turns an approved HTML demo into a custom WordPress theme; ix-wp-envsync, syncs a WordPress site between local, staging and production with rollback; issue-bot, a Telegram bot that fixes site issues with Claude Code and returns a before/after report; boardly, a dashboard that monitors uptime, performance, SSL and SEO for many sites." />
 </picture>
 </p>
 
@@ -68,24 +68,6 @@
 
 <hr>
 
-<h2>Stack</h2>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
-  <img src="assets/tools-dark.svg" width="100%" alt="Stack. Fullstack: TypeScript, React, Next.js, Node.js, Prisma, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/code-mobile-dark.svg" />
-  <img src="assets/code-dark.svg" width="100%" alt="Code sample: a WooCommerce filter on woocommerce_package_rates that hides the shipping methods a customer's zone can't use." />
-</picture>
-</p>
-
-<hr>
-
 <h2>Selected client work</h2>
 
 <table width="100%">
@@ -103,6 +85,31 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/quality-mobile-dark.svg" />
   <img src="assets/quality-dark.svg" width="100%" alt="Measured quality: Lighthouse performance, accessibility and SEO all 90+, and 80% of audit criteria met, mean of 8 pages on an audited client build." />
+</picture>
+</p>
+
+<hr>
+
+<h2>Stack</h2>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tools-mobile-dark.svg" />
+  <img src="assets/tools-dark.svg" width="100%" alt="Stack. Fullstack: TypeScript, React, Next.js, Node.js, Prisma, Hono, Cloudflare Workers, D1, Drizzle, Supabase, Postgres, grammY. WordPress: PHP, WordPress, WooCommerce, JavaScript, Tailwind CSS, ACF/SCF, Polylang, WPML, Rank Math, WP-CLI. Builders and themes: Elementor and Elementor Pro, Divi, WPBakery, Crocoblock, ThemeForest themes, custom themes from scratch. Tooling and AI: Claude Code, MCP, Playwright, Vitest, GitHub Actions, Python." />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/code-mobile-dark.svg" />
+  <img src="assets/code-dark.svg" width="100%" alt="Code sample: a WooCommerce filter on woocommerce_package_rates that hides the shipping methods a customer's zone can't use." />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/code-ts-mobile-dark.svg" />
+  <img src="assets/code-ts-dark.svg" width="100%" alt="Code sample in TypeScript: a Hono route on Cloudflare Workers that validates a bank SMS with Zod and writes the ledger entry to D1." />
 </picture>
 </p>
 
@@ -143,5 +150,5 @@
 
 <p>Open to fullstack, backend, integration and WordPress work, freelance or remote.<br />Fastest contact: LinkedIn or email.</p>
 
-<p><a href="https://github.com/Lacho00">GitHub</a> · <a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
+<p><a href="https://www.linkedin.com/in/l%C3%A1zaro-santana-linares-705616221">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
 </div>
