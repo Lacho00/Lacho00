@@ -38,7 +38,7 @@ const CARDS = {
     langs: data.langs.slice(0, 4).map((l) => l.name),
   }),
   about: (w) => about(w, {
-    headline: 'I build WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React.',
+    headline: 'WordPress themes, stores and plugins, plus TypeScript backends, bots and integrations. Now building with React.',
     cta: 'open to fullstack & automation work',
   }),
   numbers: (w) => highlights(w, {
@@ -46,7 +46,7 @@ const CARDS = {
     items: [['27', 'WordPress sites built or run'], ['15+', 'in-house plugins'], ['1,000+', 'commits since late 2025'], ['479', 'commits to claude-wp-builder']],
   }),
   craft: (w) => highlights(w, {
-    title: 'What I do',
+    title: 'Expertise',
     items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites'], ['Automation & AI', 'Node/TS bots\nClaude Code plugins']],
   }),
   tools: (w) => buildStackCard(w),
@@ -60,7 +60,7 @@ const CARDS = {
     lines: [['✓', 'demo split into sections'], ['✓', 'theme scaffolded · Tailwind + ACF'], ['✓', 'fields + template parts per section'], ['✓', 'content seeded · es / en'], ['→', 'theme ready for review']],
   }),
   workflow: (w) => pipeline(w, {
-    title: 'How I work',
+    title: 'Workflow',
     stages: [['Design', 'Figma'], ['Demo', 'pixel-close HTML'], ['Theme', 'ACF + i18n'], ['Audit', 'a11y · SEO · speed'], ['Ship', 'env sync']],
   }),
   quality: (w) => gauges(w, {
