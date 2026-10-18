@@ -76,13 +76,6 @@
 </tr>
 </table>
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/quality-mobile-dark.svg" />
-  <img src="assets/quality-dark.svg" width="100%" alt="Measured quality: Lighthouse performance, accessibility and SEO all 90+, and 80% of audit criteria met, mean of 8 pages on an audited client build." />
-</picture>
-</p>
-
 <hr>
 
 <h2>Stack</h2>
@@ -115,7 +108,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/craft-mobile-dark.svg" />
-  <img src="assets/craft-dark.svg" width="100%" alt="Expertise: WooCommerce, 11 online stores; custom themes, 9 from scratch with Tailwind and ACF; page builders, Elementor on 17 sites plus Divi and WPBakery; multilingual, Polylang and WPML on 8 sites; automation and AI, Node and TypeScript bots and Claude Code plugins." />
+  <img src="assets/craft-dark.svg" width="100%" alt="Expertise: WooCommerce online stores; custom themes with Tailwind and ACF; page builders, Elementor, Divi and WPBakery; multilingual, Polylang and WPML; automation and AI, Node and TypeScript bots and Claude Code plugins." />
 </picture>
 </p>
 
