@@ -9,7 +9,7 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { DESKTOP, PHONE, about, hero, highlights, projects, snake } from './cards.mjs';
 import { commitCount, loadProfile } from './data.mjs';
-import { code, gauges, pipeline, terminal } from './showcase-cards.mjs';
+import { code, pipeline, terminal } from './showcase-cards.mjs';
 import { buildStackCard } from './stack-card.mjs';
 
 const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN;
@@ -48,7 +48,7 @@ const CARDS = {
   }),
   craft: (w) => highlights(w, {
     title: 'Expertise',
-    items: [['WooCommerce', '11 online stores'], ['Custom themes', '9 from scratch\nTailwind + ACF'], ['Page builders', 'Elementor (17)\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML\n8 sites'], ['Automation & AI', 'Node/TS bots\nClaude Code plugins']],
+    items: [['WooCommerce', 'online stores\npayments, shipping'], ['Custom themes', 'Tailwind + ACF'], ['Page builders', 'Elementor\nDivi, WPBakery'], ['Multilingual', 'Polylang & WPML'], ['Automation & AI', 'Node/TS bots\nClaude Code plugins']],
   }),
   tools: (w) => buildStackCard(w),
   projects: (w) => projects(w, {
@@ -63,11 +63,6 @@ const CARDS = {
   workflow: (w) => pipeline(w, {
     title: 'Workflow',
     stages: [['Design', 'Figma'], ['Demo', 'pixel-close HTML'], ['Theme', 'ACF + i18n'], ['Audit', 'a11y · SEO · speed'], ['Ship', 'env sync']],
-  }),
-  quality: (w) => gauges(w, {
-    title: 'Measured quality',
-    note: 'Lighthouse, mean of 8 pages on an audited client build',
-    scores: [['Performance', 98, '', '90+'], ['Accessibility', 96, '', '90+'], ['SEO', 93, '', '90+'], ['Audit criteria', 80, '%']],
   }),
   code: (w) => code(w, {
     title: 'Code sample',
