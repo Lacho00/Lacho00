@@ -12,7 +12,7 @@
 <p><sub>Desarrollo fullstack: WordPress, TypeScript y automatización. Disponible para trabajo freelance y remoto.</sub></p>
 <p><sub>Cuba (UTC−5) · Available for freelance &amp; remote work · Spanish (native) · English (B1)</sub></p>
 
-<p><a href="https://www.linkedin.com/in/lacho00">LinkedIn</a> · <a href="mailto:lazarosantana9627@gmail.com">Email</a></p>
+<p><a href="https://www.linkedin.com/in/lacho00">LinkedIn</a> · <a href="mailto:contact@lazarosantana.dev">Email</a></p>
 </div>
 
 <hr>
