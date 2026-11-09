@@ -45,7 +45,7 @@
 <p>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/projects-mobile-dark.svg" />
-  <img src="assets/projects-dark.svg" width="100%" alt="Featured projects: claude-wp-builder, a Claude Code plugin that turns an approved HTML demo into a custom WordPress theme; ix-wp-envsync, syncs a WordPress site between local, staging and production with rollback; issue-bot, a Telegram bot that fixes site issues with Claude Code and returns a before/after report; boardly, a dashboard that monitors uptime, performance, SSL and SEO for many sites." />
+  <img src="assets/projects-dark.svg" width="100%" alt="Featured projects: claude-wp-builder, a Claude Code plugin that turns an approved HTML demo into a custom WordPress theme; ix-wp-envsync, syncs a WordPress site between local, staging and production with rollback; issue-bot, a Telegram bot that fixes site issues with Claude Code and returns a before/after report; boardly, a dashboard that monitors uptime, performance, SSL and SEO for many sites; sms-forwarder, an Android app that forwards SMS from chosen senders to an HTTPS endpoint." />
 </picture>
 </p>
 
@@ -57,6 +57,9 @@
 <tr>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/issue-bot">issue-bot</a></strong></p><p>Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.</p><p><sub>Author · Node.js · MIT</sub></p></td>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/boardly">boardly</a></strong></p><p>Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports. Server Components, Server Actions with React 19 form hooks, dependency-free SVG charts for Core Web Vitals, tested with Vitest.</p><p><sub>Author · Next.js · React · TypeScript</sub> · <a href="https://boardly-silk.vercel.app">Live demo</a></p></td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><p><strong><a href="https://github.com/Lacho00/sms-forwarder">sms-forwarder</a></strong></p><p>Android app that forwards SMS from chosen senders to an HTTPS endpoint, with a local queue, retries until a 200 and a periodic inbox sweep. Jetpack Compose, Room, WorkManager and OkHttp.</p><p><sub>Author · Kotlin · Android · MIT</sub></p></td>
 </tr>
 </table>
 
