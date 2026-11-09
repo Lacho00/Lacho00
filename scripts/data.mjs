@@ -108,8 +108,15 @@ export async function loadProfile({ login, featured, contributed, token, ownerTo
   const repos = [];
   for (const full of featured) {
     const [owner, name] = full.split('/');
-    const { repository: r } = await gql(token, REPO, { owner, name });
-    repos.push(r);
+    // A renamed, deleted or private featured repo drops its card instead of failing the whole build.
+    try {
+      const { repository: r } = await gql(token, REPO, { owner, name });
+      if (r) repos.push(r);
+      else console.warn(`Skipping featured repo ${full}: not found`);
+    } catch (err) {
+      if (!String(err.message).includes('NOT_FOUND')) throw err;
+      console.warn(`Skipping featured repo ${full}: not found`);
+    }
   }
   const edges = [...ownEdges];
   for (const full of contributed) {
