@@ -68,7 +68,11 @@ async function gql(token, query, variables) {
     signal: AbortSignal.timeout(30_000),
   });
   const json = await res.json();
-  if (!res.ok || json.errors) throw new Error(`GitHub API: ${JSON.stringify(json.errors ?? json.message)}`);
+  if (!res.ok || json.errors) {
+    const err = new Error(`GitHub API: ${JSON.stringify(json.errors ?? json.message)}`);
+    err.errors = json.errors ?? [];
+    throw err;
+  }
   return json.data;
 }
 
@@ -114,10 +118,13 @@ export async function loadProfile({ login, featured, contributed, token, ownerTo
       if (r) repos.push(r);
       else console.warn(`Skipping featured repo ${full}: not found`);
     } catch (err) {
-      if (!String(err.message).includes('NOT_FOUND')) throw err;
+      const notFound = err.errors?.length > 0 && err.errors.every((e) => e.type === 'NOT_FOUND');
+      if (!notFound) throw err;
       console.warn(`Skipping featured repo ${full}: not found`);
     }
   }
+  // With no repo left the projects card cannot be drawn; failing keeps the committed one.
+  if (featured.length > 0 && repos.length === 0) throw new Error('None of the featured repos could be loaded');
   const edges = [...ownEdges];
   for (const full of contributed) {
     const r = repos.find((x) => full.endsWith(`/${x.name}`));
