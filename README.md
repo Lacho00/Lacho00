@@ -60,7 +60,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/sms-forwarder">sms-forwarder</a></strong></p><p>Android app that forwards SMS from chosen senders to an HTTPS endpoint, with a local queue, retries until a 200 and a periodic inbox sweep. Jetpack Compose, Room, WorkManager and OkHttp.</p><p><sub>Author · Kotlin · Android · MIT</sub> · <a href="https://lazarosantana.dev/en/projects/sms-forwarder/">Case study</a></p></td>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/sms-relay">sms-relay</a></strong></p><p>Backend for sms-forwarder on Cloudflare Workers: stores each SMS once in D1 and relays it to Telegram or a signed webhook through a transactional outbox, with backoff, failure alerts and per-IP rate limits. Hono, Zod and Drizzle, 300+ tests.</p><p><sub>Author · TypeScript · Cloudflare Workers · MIT</sub></p></td>
+<td width="50%" valign="top"><p><strong><a href="https://github.com/Lacho00/sms-relay">sms-relay</a></strong></p><p>Backend for sms-forwarder on Cloudflare Workers: stores each SMS once in D1 and relays it to Telegram or a signed webhook through a transactional outbox, with backoff, failure alerts and per-IP rate limits. Hono, Zod and Drizzle, 300+ tests.</p><p><sub>Author · TypeScript · Cloudflare Workers · MIT</sub> · <a href="https://lazarosantana.dev/en/projects/sms-relay/">Case study</a></p></td>
 </tr>
 </table>
 
