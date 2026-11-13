@@ -17,7 +17,7 @@ if (!token) throw new Error('Set PROFILE_TOKEN or GITHUB_TOKEN');
 
 const CONTRIBUTED = ['yojahny55/claude-wp-builder', 'yojahny55/ix-wp-envsync'];
 // Own repos are already counted in the language shares, so only the contributed ones are added there.
-const FEATURED = [...CONTRIBUTED, 'Lacho00/issue-bot', 'Lacho00/boardly', 'Lacho00/sms-forwarder'];
+const FEATURED = [...CONTRIBUTED, 'Lacho00/issue-bot', 'Lacho00/boardly', 'Lacho00/sms-forwarder', 'Lacho00/sms-relay'];
 // Shorter, cleaner copy than the repos' own descriptions.
 const DESCRIPTIONS = {
   'claude-wp-builder': 'Claude Code plugin that turns an approved HTML demo into a custom WordPress theme.',
@@ -25,6 +25,7 @@ const DESCRIPTIONS = {
   'boardly': 'Dashboard that monitors uptime, performance, SSL and SEO for many sites, with Slack alerts and PDF reports.',
   'issue-bot': 'Telegram bot that takes a site issue, agrees a plan, fixes it with Claude Code and returns a before/after report.',
   'sms-forwarder': 'Android app that forwards SMS from chosen senders to an HTTPS endpoint, with a local queue and retries.',
+  'sms-relay': 'Cloudflare Worker that stores each forwarded SMS once in D1 and relays it to Telegram or a signed webhook.',
 };
 
 const data = await loadProfile({ login: 'Lacho00', featured: FEATURED, contributed: CONTRIBUTED, token, ownerToken: Boolean(process.env.PROFILE_TOKEN) });
